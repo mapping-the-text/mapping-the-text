@@ -26,6 +26,7 @@ google-code: UA-592475-8
 markdown: kramdown
 kramdown:
   input: GFM
+  parse_block_html: true
 include: ["_pages"]
 # theme: minima
 # gems:

@@ -1,60 +1,22 @@
 ---
-layout: default
+layout: conference
 redirect_from: /cfp-2018
 permalink: /conference/2018/cfp
 title: 2018 Conference Call for Papers
 ---
 
-# Mapping the Text
+### Deadline for submissions: 
+#### 22 December 2017
 
-<div class="row">
-<div class="col-4">
+### Contact email: 
+#### conference-2018@mapping-the-text.org
 
-## Deadline for submissions: 
-December 22, 2017
-
-## Full name / name of organization: 
-
-Moacir P. de Sá Pereira w/ the [NYU English Dept.](http://as.nyu.edu/english.html) & [NYU Libraries](http://library.nyu.edu)
-
-## Contact email: 
-conference-2018@mapping-the-text.org
-
-### Organizers
-
-Moacir P. de Sá Pereira w/ the [NYU English Dept.](http://as.nyu.edu/english.html) & [NYU Libraries](http://library.nyu.edu)
-
-### Date
-
-Saturday, 21 April 2018
-
-### Location
-
-Bobst Library, New York
-
-### Website
-
-http://mapping-the-text.org
-
-</div>
-<div class="col">
-## Call for Papers
-
-### **Mapping the Text** (2018)
-
-### Proposal submission deadline: 
-
-December 22, 2017
-
-### Description
-
-Proposals for papers and panels are now being accepted for the “Mapping the
-Text” conference, part of the annual Culture Mapping event hosted at New York
-University by [NewYorkScapes](http://newyorkscapes.org), a research community
-dedicated to exploring the literary, historical, and social aspects of the city
-of New York using digital forms of scholarship. 
-
-**Mapping the Text**
+<p class="lead">Proposals for papers and panels are now being accepted for the
+“Mapping the Text” conference, in conjunction with the annual Culture Mapping
+event hosted at New York University by
+[NewYorkScapes](http://newyorkscapes.org), a research community dedicated to
+exploring the literary, historical, and social aspects of the city of New York
+using digital forms of scholarship.</p>
 
 Our scholarly landscape surrounds us with spatial turns in both the humanities
 and social sciences. Additionally, the arrival of mapping software suites with
@@ -84,17 +46,12 @@ creating geospatial data, teaching the geospatial through texts, and more.
 All proposals for papers and panels must be submitted through the [conference’s
 webform](/conference/2018/submit)
 
-For details on using the submission database and on the application
-process in general, please see our [Proposal Submission FAQs and Tips](/conference/proposal-tips-faqs)
-
 The deadline for submissions is December 22, 2017.
 
 We also have a page [for travel information](/conference/2018/travel).
 
 With any questions about the “Mapping the Text” conference, please contact its
-organizer, Moacir P. de Sá Pereira, New York University, at moacir@mapping-the-text.org
+organizer, Moacir P. de Sá Pereira, New York University, at
+moacir@mapping-the-text.org
 
 We look forward to receiving your submissions.
-
-</div>
-</div>

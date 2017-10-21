@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /cfp-2018
+redirect_from: /cfp-2018
+permalink: /conference/2018/cfp
 title: 2018 Conference Call for Papers
 ---
 

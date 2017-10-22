@@ -29,7 +29,8 @@ kramdown:
   parse_block_html: true
 include: ["_pages"]
 # theme: minima
-# gems:
+gems:
+  - jekyll-redirect-from
 #   - jekyll-feed
 exclude:
   - Gemfile

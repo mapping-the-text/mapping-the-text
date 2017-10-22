@@ -8,5 +8,6 @@ redirect-from:
 ---
 
 <img src="https://i.imgur.com/VmtUDRI.png" class="img-fluid">
-
-## Come to our conference.
+<small class="text-right blockquote-footer">
+Bartholomew, J. G., and B. Roth. _A Literary & Historical Atlas of Europe_. 1910.
+</small>

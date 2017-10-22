@@ -59,10 +59,11 @@ h4, h5, h6, .lead, p > em {
 }
 
 .lead:first-letter {
+  font-family: Didot, "EB Garamond", "Times New Roman", serif;
   color: $yellow;
   float: left;
   font-size: 5rem;
-  line-height: 3rem;
+  line-height: 3.5rem;
   padding: 0 .25rem 0 0 ;
 }
 

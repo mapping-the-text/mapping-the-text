@@ -12,7 +12,7 @@ Dept](http://as.nyu.edu/english.html) and the [NYU
 Libraries](http://library.nyu.edu).
 
 But it’s also a collection of scholars. And of projects. And of articles. And
-of news. We’ll see.
+of news.
 
 The idea is that we’re currently a rather scattered bunch. Some of us are
 geohumanists. Others are geocritics. Others are literary geographers. Still

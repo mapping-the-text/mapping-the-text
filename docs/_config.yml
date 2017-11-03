@@ -35,3 +35,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from

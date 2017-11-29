@@ -74,6 +74,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+.muted {
+  color: $cyan;
+}
+
 @media (min-width: 576px){
   h1 {
     font-size: 3.5rem;

@@ -12,21 +12,20 @@
   }
 
   h2, h3 {
-    font-family: Didot, "EB Garamond", "Times New Roman", serif;
+    font-family: Nunito, "Helvetica," sans-serif;
     font-size: 1.5rem;
-    color: $base01;
+    text-transform: uppercase;
+    color: $violet;
   }
 
   .btn-primary {
     color: $base3;
     background-color: $violet;
-    border-color: $cyan;
   }
 
   .btn-primary:hover, .btn-primary:focus {
     color: $base3;
     background-color: $cyan;
-    border-color: $green;
   }
 
 }

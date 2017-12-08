@@ -12,7 +12,7 @@ title: 2018 Conference Call for Papers
 #### conference-2018@mapping-the-text.org
 
 <p class="lead">Proposals for papers and panels are now being accepted for the
-“Mapping the Text” conference to be held at New York University on Saturday 21
+“Mapping the Text” conference, occurring at New York University on Saturday 21
 April 2018. The conference will be held in conjunction with the annual Culture
 Mapping event hosted at New York University, which will occur on Friday 20
 April 2018.  The Culture Mapping event will be hosted by
@@ -30,8 +30,8 @@ answer historiogeographically driven questions, namely by using digital
 geospatial visualizations to show how objects have moved through the “real
 world” to generate networks of influence, such as in Stanford’s “[Mapping the
 Republic of Letters](http://republicofletters.stanford.edu/)” project. In so
-doing, this work reproduces a distinct separation between the world outside a
-text and world(s) inside a text.
+doing, this work reproduces a distinct separation between the world(s) outside
+a text and world(s) inside a text.
 
 In “Mapping the Text,” our aim is to convene scholars who have crossed this
 line and begun linking the “real world”(s) mediated by software packages with

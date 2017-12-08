@@ -15,14 +15,19 @@
 # in the templates via {{ site.myvariable }}.
 title: Mapping the Text
 email: web@mapping-the-text.org
-description: > # this means to ignore newlines until "baseurl:"
-  Humanities scholars tracing spatiotemporalities
+# description: > # this means to ignore newlines until "baseurl:"
+#   Humanities scholars tracing spatiotemporalities
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+host-full: "https://mapping-the-text.org"
 twitter_username: maptxt
 github_username:  mapping-the-text
 google-code: UA-592475-8
 conf-deadline: 12 January 2017
+description: >
+  A conference for scholars (digitally) bridging the worlds produced within
+  æesthetic and cultural objects with those produced without. 21 April 2018,
+  NYU
 # Build settings
 markdown: kramdown
 kramdown:

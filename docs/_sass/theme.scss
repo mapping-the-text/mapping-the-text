@@ -156,6 +156,13 @@ blockquote {
   color: $cyan;
 }
 
+h4 {
+  font-size: 1.25rem;
+}
+
+.fa-small {
+  font-size: 70%;
+}
 
 @import "index";
 @import "navbar";

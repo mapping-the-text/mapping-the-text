@@ -6,6 +6,11 @@ title: 2018 Conference Schedule
 
 ## Tentative Schedule
 
+### Friday, {{ site.conf-deadline }}
+
+* Proposals due. [Submit proposal](/conference/2018/submit)
+  ([CFP](/conference/2018/cfp)).
+
 ### Friday, 20 April 2018
 
 * *Culture Mapping* event hosted by [NewYorkScapes](http://newyorkscapes.org)

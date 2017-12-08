@@ -6,7 +6,7 @@ title: 2018 Conference Call for Papers
 ---
 
 ### Deadline for submissions: 
-#### 22 December 2017
+#### {{ site.conf-deadline }}
 
 ### Contact email: 
 #### conference-2018@mapping-the-text.org
@@ -51,7 +51,7 @@ affiliations as well as in their positions in their careers.
 
 There may be some funding available for non-US / non-faculty panelists.
 
-The deadline for submissions is December 22, 2017.
+The deadline for submissions is {{ site.conf-deadline }}.
 
 With any questions about the “Mapping the Text” conference, please contact its
 organizer, Moacir P. de Sá Pereira, New York University, at

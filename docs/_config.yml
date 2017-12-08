@@ -22,6 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maptxt
 github_username:  mapping-the-text
 google-code: UA-592475-8
+conf-deadline: 12 January 2017
 # Build settings
 markdown: kramdown
 kramdown:

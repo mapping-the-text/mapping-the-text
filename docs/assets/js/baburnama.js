@@ -1,7 +1,7 @@
 let map = L.map("map", {
   zoom: 4,
   minZoom: 4,
-  center: [31.952162238024975, 71.98242187500001],
+  center: [31.952162238024975, 69.91699218750001],
   maxBounds: L.latLngBounds([[3.037, 24.565], [52, 98.426]])
 });
 L.tileLayer("/assets/tiles/{z}/{x}/{y}.png", {

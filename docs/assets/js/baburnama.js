@@ -88,7 +88,7 @@ getSentiment(function(folioSentiments){
           radius: f.properties.radius,
           fillColor: f.properties.fillColor,
           weight: 1,
-          color: "#657b83"}).bindPopup(`<h4>${f.properties.name}</h4><p><strong>Referred to as:</strong> ${f.properties.nicknames}<br /><strong>Mentioned:</strong> ${f.properties.instance_count} times<br /><strong>Sentiment polarity (normed):</strong> ${f.properties.polarityNorm.toFixed(3)}`);}
+          color: "#657b83"}).bindPopup(`<h4>${f.properties.name}</h4><p><strong>Referred to as:</strong> ${f.properties.nicknames}<br /><strong>Mentioned:</strong> ${f.properties.instance_count} times<br /><strong>Sentiment polarity (normed):</strong> ${f.properties.polarityNorm.toFixed(3)}`).bindTooltip(f.properties.name);}
     }).addTo(map);
   });
 });

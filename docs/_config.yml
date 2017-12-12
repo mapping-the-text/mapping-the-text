@@ -25,9 +25,8 @@ github_username:  mapping-the-text
 google-code: UA-592475-8
 conf-deadline: 12 January 2018
 description: >
-  scholars (digitally) bridging the worlds produced within
-  æesthetic/cultural objects with those produced without. 21 April 2018,
-  NYU
+  Scholars (digitally) bridging worlds produced within æsthetic/cultural
+  objects with those produced without. 21 Apr 2018, NYU
 # Build settings
 markdown: kramdown
 kramdown:

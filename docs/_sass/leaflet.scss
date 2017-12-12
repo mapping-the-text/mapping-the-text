@@ -1,0 +1,17 @@
+.leaflet-container .leaflet-control-attribution {
+  font-family: Didot, "EB Garamond", "Times New Roman", serif;
+  color: $base00;
+  text-align: right;
+  background: rgba(253, 246, 227, 0.7);
+}
+
+.leaflet-control-attribution a {
+  color: $magenta;
+  font-weight: bold;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  font-family: Didot, "EB Garamond", "Times New Roman", serif;
+  color: $base00;
+  background-color: $base3;
+}

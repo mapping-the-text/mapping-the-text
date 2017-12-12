@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: "Times", "Helvetica", sans-serif;
+  font-family: Didot, "EB Garamond", "Times New Roman", serif;
   color: $base00;
   background-color: $base3;
   background-image: url("https://i.imgur.com/wfEXfGM.png");
@@ -96,9 +96,9 @@ h2, h3, h4, h5, h6 {
 
 p > strong, section > ol > li > strong {
 
-  font-family: "Ubuntu", "Helvetica", sans-serif;
-  font-size: 90%;
-  // font-size: .9rem;
+  // font-family: "Ubuntu", "Helvetica", sans-serif;
+  // font-size: 90%;
+  // // font-size: .9rem;
   font-weight: bolder;
   color: $violet;
 }
@@ -168,3 +168,4 @@ h4 {
 @import "navbar";
 @import "code";
 @import "aside";
+@import "leaflet";

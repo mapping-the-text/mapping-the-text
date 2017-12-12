@@ -1,3 +1,12 @@
+.neatline {
+  border: 1px solid $base1;
+	padding: .5rem;
+}
+
+#map {
+  height: 450px;
+}
+
 .leaflet-container .leaflet-control-attribution {
   font-family: Didot, "EB Garamond", "Times New Roman", serif;
   color: $base00;
@@ -14,4 +23,23 @@
   font-family: Didot, "EB Garamond", "Times New Roman", serif;
   color: $base00;
   background-color: $base3;
+}
+
+.leaflet-touch .leaflet-bar {
+  border: 2px solid $base1;
+}
+
+.leaflet-bar a {
+  background-color: $base3;
+  color: $base01;
+  border-bottom: 1px solid $base01;
+}
+
+.leaflet-bar a:hover {
+  background-color: $cyan;
+}
+
+.leaflet-bar a.leaflet-disabled {
+  background-color: $base2;
+  color: $base1;
 }

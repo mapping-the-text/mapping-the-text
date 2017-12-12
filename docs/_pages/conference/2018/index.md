@@ -12,4 +12,6 @@ redirect-from:
 <!-- Bartholomew, J. G., and B. Roth. _A Literary & Historical Atlas of Europe_. 1910. -->
 <!-- </small> -->
 
-<div id="map" style="height: 400px;"></div>
+<div class="neatline">
+<div id="map"></div>
+</div>

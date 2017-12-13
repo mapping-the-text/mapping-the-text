@@ -5,7 +5,7 @@ let map = L.map("map", {
   maxBounds: L.latLngBounds([[3.037, 24.565], [52, 98.426]])
 });
 L.tileLayer("/assets/tiles/{z}/{x}/{y}.png", {
-    attribution: "&copy; <a href='http://www.naturalearthdata.com/'>Natural Earth Data</a> | Geospatial and sentiment analysis on <em>The Baburnama</em> (1530)<br /> by Sriharsha Devulapalli and Manan Ahmed using <a href='http://nywalker.newyorkscapes.org/'>NYWalker</a>",
+    attribution: "&copy; <a href='http://www.naturalearthdata.com/'>Natural Earth Data</a> | Geospatial and sentiment analysis on <em>The Baburnama</em> (1530)<br /> by Sriharsha Devulapalli and Manan Ahmed using <a href='http://nywalker.newyorkscapes.org/'>NYWalker</a>, by Moacir P. de Sá Pereira",
     tms: true,
     maxZoom: 10,
     maxNativeZoom: 8

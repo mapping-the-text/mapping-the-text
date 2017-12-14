@@ -55,6 +55,17 @@ a:focus, a:hover {
   color: $cyan;
 }
 
+h1 {
+
+  a, a:focus, a:hover {
+  color: $violet;
+  font-weight: normal;
+  text-decoration: none;
+  }
+
+}
+
+
 h4, h5, h6, .lead, p > em {
   color: $base01;
 }
@@ -187,6 +198,11 @@ form {
     background-color: $cyan;
     border-color: $green;
   }
+}
+
+.img-thumbnail {
+  background-color: $base2;
+  border: 1px solid $base1;
 }
 
 @import "index";

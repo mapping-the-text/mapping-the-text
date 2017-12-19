@@ -39,7 +39,7 @@ $(document).ready(function() {
   });
 }); 
 
-$("#alert").hide();
+$("#alert").html("<h4>Please enter your proposal below. We will email you confirmation on 12 January.</h4>");
 
 var request;
 $("#submission").submit(function(event){
@@ -53,7 +53,7 @@ $("#submission").submit(function(event){
   var email = $("#email").val();
   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   if (!regex.test(email)){
-    $("#alert").show().addClass("alert-danger").html("The email address does not appear valid.");
+    $("#alert").addClass("alert-danger").html("The email address does not appear valid.");
     request.abort();
   } else {
     inputs.prop("disabled", true);
@@ -65,11 +65,11 @@ $("#submission").submit(function(event){
     // request.done(function (response, textStatus, jqXHR){
     request.done(function (){
       $("#alert").removeClass("alert-danger");
-      $("#alert").show().addClass("alert-success").html("Thank you for your submission, " + name + ". You should receive an email at " + email + " confirming final receipt on 12 January.");
+      $("#alert").addClass("alert-success").html("Thank you for your submission, " + name + ". You should receive an email at " + email + " confirming final receipt on 12 January.");
     });
 
     request.fail(function (jqXHR, textStatus, errorThrown){
-      $("#alert").show().addClass("alert-danger").html("The following error occurred: "+
+      $("#alert").addClass("alert-danger").html("The following error occurred: "+
         textStatus + ", " +  errorThrown);
     });
 

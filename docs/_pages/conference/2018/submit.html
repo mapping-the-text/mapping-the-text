@@ -4,20 +4,24 @@ permalink: /conference/2018/submit
 title: 2018 Conference Submission Form
 ---
 
-<form action="https://formspree.io/submit@mapping-the-text.org" method="POST">
-	<div class="form-group">
-		<label for="name">Full name</label>
-		<input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" placeholder="Enter name">
-		<small id="nameHelp" class="form-text text-muted">Please enter your full name</small>
-	</div>
-	<div class="form-group">
-		<label for="email">Email address</label>
-    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-	</div>
+<!-- <form action="https://formspree.io/submit@mapping-the-text.org" method="POST"> -->
+<div id="alert" class="alert"></div>
+<form id="submission">
+  <div class="row">
+    <div class="form-group col-md-auto">
+      <label for="name">Full name</label>
+      <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" placeholder="Enter name">
+      <small id="nameHelp" class="form-text text-muted">Please enter your full name</small>
+    </div>
+    <div class="form-group col-md-auto">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+  </div>
   <div class="form-group">
     <label for="abstract">Presentation or panel abstract</label>
-    <textarea rows=8 class="form-control" name="abstract" id="abstract" aria-describedby="abstractHelp" placeholder="200-word abstract"></textarea>
+    <textarea rows=4 class="form-control" name="abstract" id="abstract" aria-describedby="abstractHelp" placeholder="200-word abstract"></textarea>
     <small id="abstractHelp" class="form-text text-muted">Enter a brief abstract of your proposed paper or panel. You have used <span id="display_count">0</span> words of 200.</small>
   </div>
   <div class="form-group">

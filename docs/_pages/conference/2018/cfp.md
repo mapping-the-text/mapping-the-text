@@ -44,8 +44,9 @@ contrast to or supplementing analysis, minor texts and minor geographies,
 handling and creating geospatial data, teaching the geospatial through texts,
 and more.
 
-All proposals for papers and panels must be submitted through the [conference’s
-webform](/conference/2018/submit). We seek a diverse group of proposals from a
+All proposals for papers and panels must be submitted through the
+[conference’s webform](/conference/2018/submit). [The
+organizers](/conference/2018/team) seek a diverse group of proposals from a
 diverse group of scholars, both in terms of their geography and institutional
 affiliations as well as in their positions in their careers.
 

@@ -11,7 +11,10 @@ title: 2018 Conference Call for Papers
 ### Contact email: 
 #### conference-2018@mapping-the-text.org
 
-<p class="lead">Proposals for papers and panels are now being accepted for the
+### Plenary speaker:
+#### [Professor Sally Bushell](http://www.lancaster.ac.uk/english-literature-and-creative-writing/about-us/staff/sally-bushell), Lancaster University
+
+<p class="lead mt-3">Proposals for papers and panels are now being accepted for the
 “Mapping the Text” conference, occurring at New York University on Saturday 21
 April 2018. The conference will be held in conjunction with the annual Culture
 Mapping event hosted at New York University, which will occur on Friday 20

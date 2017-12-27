@@ -20,7 +20,11 @@ title: 2018 Conference Schedule
 ### Friday, 20 April 2018
 
 <div class="row mb-3">
-<div class="col-3"></div>
+<div class="col-3">
+
+<img src="https://i.imgur.com/Z9ByYGF.png" class="img-thumbnail" alt="NewYorkScapes" />
+
+</div> 
 <div class="col-9">
 
 * *Culture Mapping* event hosted by [NewYorkScapes](http://newyorkscapes.org)

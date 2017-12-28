@@ -48,7 +48,7 @@ $("#submission").submit(function(event){
 
   // var form = $( this );
   var serializedData = $( this ).serialize();
-  var inputs = $( this ).find("#name, #email, #abstract, #bio");
+  var inputs = $( this ).find("#name, #email, #abstract, #bio, #url");
   var name = $("#name").val();
   var email = $("#email").val();
   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;

@@ -6,128 +6,48 @@ title: Mapping the Text Conference 2018
 
 <h2>Organizers:</h2>
 
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/YVZlOud.jpg" class="img-thumbnail" alt="Moacir P. de Sá Pereira">
+{% for organizer in site.data.organizers %}
+  <div class="row mb-3">
+    <div class="col-4">
+      <img src="{{ organizer.img }}" class="img-thumbnail" alt="{{ organizer.name }}">
+    </div>
+    <div class="col-8">
+      <h3>{{ organizer.name }}</h3>
+      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="{{ organizer.dept }}">{{ organizer.dept_name }}</a><br />
+        {% if organizer.url %}
+          <i class="fa fa-small fa-globe"></i>: <a href="{{ organizer.url }}">{{ organizer.url_name }}</a><br />
+        {% endif %}
+        {% if organizer.twitter %}
+          <i class="fa fa-small fa-twitter"></i>: <a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a><br />
+        {% endif %}
+        {% if organizer.nyscapes %}
+          <i class="fa fa-small fa-building"></i>: <a href="{{ organizer.nyscapes }}">NewYorkScapes Profile</a>
+        {% endif %}
+      </p>
+    </div>
   </div>
-  <div class="col-8">
-    <h3>Moacir P. de Sá Pereira</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU <br />
-        <i class="fa fa-small fa-globe"></i>: <a href="http://moacir.com">moacir.com</a><br />
-        <i class="fa fa-small fa-twitter"></i>: <a href="http://twitter.com/muziejus">@muziejus</a><br />
-        <i class="fa fa-small fa-building"></i>: <a href="https://newyorkscapes.org/researchers/moacir-p-de-sa-pereira/">NewYorkScapes Profile</a>
-    </p>
-  </div>
-</div>
-
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/6yoFDPQ.jpg" class="img-thumbnail" alt="Nicholas Wolf">
-  </div>
-  <div class="col-8">
-    <h3>Nicholas Wolf</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://library.nyu.edu">Division of Libraries</a>, NYU <br />
-        <i class="fa fa-small fa-globe"></i>: <a href="http://nmwolf.net">nmwolf.net</a><br />
-        <i class="fa fa-small fa-twitter"></i>: <a href="http://twitter.com/nicholasmwolf">@nicholasmwolf</a><br />
-        <i class="fa fa-small fa-building"></i>: <a href="https://newyorkscapes.org/researchers/nicholas-wolf/">NewYorkScapes Profile</a>
-    </p>
-  </div>
-</div>
+{% endfor %}
 
 <h2>Co-Organizers:</h2>
 
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/AVrPj62.jpg" class="img-thumbnail" alt="Grace Afsari-Mamagani">
-  </div>
-  <div class="col-8">
-    <h3>Grace Afsari-Mamagani</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU <br />
-        <i class="fa fa-small fa-globe"></i>: <a href="http://gafsari.com">gafsari.com</a><br />
-        <i class="fa fa-small fa-twitter"></i>: <a href="http://twitter.com/gafsari">@gafsari</a><br />
-        <i class="fa fa-small fa-building"></i>: <a href="https://newyorkscapes.org/researchers/grace-afsari-mamagani/">NewYorkScapes Profile</a>
-    </p>
-  </div>
-</div>
-
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/ip29yJw.jpg" class="img-thumbnail" alt="Timothy Anderson">
-  </div>
-  <div class="col-8">
-    <h3>Timothy Anderson</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU <br />
-    </p>
-  </div>
-</div>
-
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/gYseCAy.jpg" class="img-thumbnail" alt="Tom Augst">
-  </div>
-  <div class="col-8">
-    <h3>Tom Augst</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU <br />
-        <i class="fa fa-small fa-globe"></i>: <a href="http://as.nyu.edu/faculty/thomas-edward-augst.html">NYU Faculty page</a><br />
-        <i class="fa fa-small fa-building"></i>: <a href="https://newyorkscapes.org/researchers/tom-augst/">NewYorkScapes Profile</a>
-    </p>
-  </div>
-</div>
-
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/rk8If47.jpg" class="img-thumbnail" alt="Nicholas Duron">
-  </div>
-  <div class="col-8">
-    <h3>Nicholas Duron</h3>
-  </div>
-</div>
-
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/of32gtf.jpg" class="img-thumbnail" alt="Chad Hegelmeyer">
-  </div>
-  <div class="col-8">
-    <h3>Chad Hegelmeyer</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU
+{% for organizer in site.data.co_organizers %}
+  <div class="row mb-3">
+    <div class="col-4">
+      <img src="{{ organizer.img }}" class="img-thumbnail" alt="{{ organizer.name }}">
+    </div>
+    <div class="col-8">
+      <h3>{{ organizer.name }}</h3>
+      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="{{ organizer.dept }}">{{ organizer.dept_name }}</a><br />
+        {% if organizer.url %}
+          <i class="fa fa-small fa-globe"></i>: <a href="{{ organizer.url }}">{{ organizer.url_name }}</a><br />
+        {% endif %}
+        {% if organizer.twitter %}
+          <i class="fa fa-small fa-twitter"></i>: <a href="http://twitter.com/{{ organizer.twitter }}">@{{ organizer.twitter }}</a><br />
+        {% endif %}
+        {% if organizer.nyscapes %}
+          <i class="fa fa-small fa-building"></i>: <a href="{{ organizer.nyscapes }}">NewYorkScapes Profile</a>
+        {% endif %}
       </p>
+    </div>
   </div>
-</div>
-
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/RTkFKgv.jpg" class="img-thumbnail" alt="Sara Partridge">
-  </div>
-  <div class="col-8">
-    <h3>Sara Partridge</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU <br />
-        <i class="fa fa-small fa-building"></i>: <a href="https://newyorkscapes.org/researchers/sara-partridge/">NewYorkScapes Profile</a>
-    </p>
-  </div>
-</div>
-
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/F0aPddS.jpg" class="img-thumbnail" alt="Blevin Shelnutt">
-  </div>
-  <div class="col-8">
-    <h3>Blevin Shelnutt</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU <br />
-        <i class="fa fa-small fa-globe"></i>: <a href="http://as.nyu.edu/content/nyu-as/as/faculty/blevin-shelnutt.html">NYU Faculty page</a><br />
-    </p>
-  </div>
-</div>
-<div class="row mb-3">
-  <div class="col-4">
-    <img src="https://i.imgur.com/IsiZyqZ.jpg" class="img-thumbnail" alt="Andrew Zuliani">
-  </div>
-  <div class="col-8">
-    <h3>Andrew Zuliani</h3>
-      <p class="small"><i class="fa fa-small fa-book"></i>: <a href="http://as.nyu.edu/english.html">Department of English</a>, NYU <br />
-        <i class="fa fa-small fa-globe"></i>: <a href="http://agencyofimaginaryarchitecture.agency">Agency of Imaginary Architecture</a><br />
-        <i class="fa fa-small fa-building"></i>: <a href="https://newyorkscapes.org/researchers/andrew-zuliani/">NewYorkScapes Profile</a>
-      </p>
-  </div>
-</div>
-
-
+{% endfor %}

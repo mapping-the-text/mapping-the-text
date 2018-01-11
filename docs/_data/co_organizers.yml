@@ -1,0 +1,60 @@
+- name: Grace Afsari-Mamagani
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/AVrPj62.jpg
+  twitter_name: gafsari
+  url: http://gafsari.com
+  url_name: gafsari.com
+  nyscapes: https://newyorkscapes.org/researchers/grace-afsari-mamagani/
+
+- name: Timothy Anderson
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/ip29yJw.jpg
+
+- name: Tom Augst
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/gYseCAy.jpg
+  url: http://as.nyu.edu/faculty/thomas-edward-augst.html
+  url_name: NYU Faculty page
+  nyscapes: https://newyorkscapes.org/researchers/tom-augst/
+
+- name: Nicholas Duron
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/rk8If47.jpg
+
+- name: Chad Hegelmeyer
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/of32gtf.jpg
+
+- name: Zachary Humphrey
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/5uXosds.jpg
+  url: https://ibindthehangingnight.wordpress.com
+  url_name: Investigating the Makeup of Anne Waldman’s Space
+
+
+- name: Sara Partridge
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/RTkFKgv.jpg
+  nyscapes: https://newyorkscapes.org/researchers/sara-partridge/
+
+- name: Blevin Shelnutt
+  dept: http://as.nyu.edu/english.html
+  img: https://i.imgur.com/F0aPddS.jpg
+  dept_name: Department of English, NYU
+  url: http://as.nyu.edu/faculty/blevin-shelnutt.html
+  url_name: NYU Faculty page
+
+- name: Andrew Zuliani
+  dept: http://as.nyu.edu/english.html
+  dept_name: Department of English, NYU
+  img: https://i.imgur.com/IsiZyqZ.jpg
+  url: http://agencyofimaginaryarchitecture.agency
+  url_name: Agency of Imaginary Architecture
+  nyscapes: https://newyorkscapes.org/researchers/andrew-zuliani/

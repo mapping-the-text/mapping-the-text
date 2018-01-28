@@ -1,0 +1,92 @@
+---
+- name: Pre-Cartesian Cartographies
+  time: "9:45"
+  papers:
+  - title: (Herdotus’s _Histories_)
+    project-url:
+    presenters:
+    - name: ^Elton Barker
+      twitter: eltoneb
+      position: Reader in <a href="http://fass.open.ac.uk/classical-studies">Classical Studies</a> at the Open University (UK)
+  - title: (Icelandic Sagas)
+    project-url: http://sagamap.hi.is/is/
+    project: Mapping the Icelandic Sagas
+    presenters:
+    - name: Emily Lethbridge
+      twitter: lethbridge_e
+      position: Research Lecturer in <a href="http://www.arnastofnun.is/page/nafnfraedisvid_en">Name Studies</a> at Stofnun Árna Magnússonar í íslenskum fræðum (Iceland)
+  - title: Digital Mapping of Fictional Places in Spanish Early Modern Byzantine Novels
+    presenters:
+    - name: ^José Luis Losada
+      twitter: libropesia
+      position: Assistant Professor of <a href="http://www.ifr.uni.wroc.pl/pl">Romance Philology</a> at the Universytet Wrocławski (Poland)
+  - title: Mapping the Geographic Information of the Corpus
+    presenters:
+    - name: David Joseph Wrisley
+      twitter: djwrisley
+      position: Associate Professor of Digital Humanities at <a href="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities.html">NYU Abu Dhabi</a> (UAE)
+      personal-url: djwrisley.com
+- name: City-Text-Map
+  time: "11:15"
+  papers:
+    - title: "A ‘Frightful Number!’: Mapping Daniel Defoe’s _A Journal of the Plague Year_"
+      project-url: http://hofstra.github.io/itinerary/plague-year/
+      project: A “Frightful Number!” – Mapping Daniel Defoe’s <i>A Journal of the Plague Year</i>
+      presenters:
+      - name: ^Adam Sills
+        position: Associate Professor of <a href="https://www.hofstra.edu/academics/colleges/hclas/engl/index.html">English</a> at Hofstra University (USA)
+    - title: Reanimating New York City’s Nineteenth-Century Latinx Press through Geospatial Visualization
+      presenters:
+      - name: ^Kelley Kreitz
+        position: Assistant Professor of <a href="https://www.pace.edu/dyson/departments/english-nyc">English</a> at Pace University (USA)
+        twitter: kelley_kreitz
+        personal-url: kelleykreitz.com
+    - title: (Beijing Gazetteer)
+      presenters:
+      - name: Ken Hammond
+        position: Professor of <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
+      - name: Pete Mattox
+        position: MA student in <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
+- name: Mapping Archives
+  time: "13:30"
+  papers:
+    - title: "Mapping Newspapers: Visualizing Borderlands Histories through Geospatial Analysis"
+      project-url: http://bacartography.org
+      project: Borderlands Archives Cartography
+      presenters:
+      - name: Sylvia Fernández
+        position: PhD Candidate in <a href="https://ssl.uh.edu/class/spanish/">Hispanic Studies</a> at University of Houston (USA)
+        twitter: sferna109
+      - name: Maira Álvarez
+        position: PhD Candidate in <a href="https://ssl.uh.edu/class/spanish/">Hispanic Studies</a> at University of Houston (USA)
+        twitter: fronteriza956
+    - title: (Travel Books about Spain)
+      project-url: http://spanishtravelers.com
+      project: The Spanish Travelers Project
+      presenters:
+      - name: ^Eugenia Afinoguénova
+        position: Professor of <a href="http://www.marquette.edu/languages-literatures-cultures/index.shtml">Spanish</a> at Marquette University (USA)
+    - title: (Landscape Corpus)
+      presenters:
+      - name: James O. Butler
+        position: Named Research Associate, Chronotopic Cartographies for Literature at Lancaster University (UK)
+        twitter: ludonymist
+- name: Iterated Urban Geographies
+  time: "14:45"
+  papers:
+    - title: "Mapping and Interpreting Fictional Vilnius: City Syntax and Semantics in the Prose of Gavelis, Kunčinas, and Ramonas"
+      presenters: 
+      - name: Julija Snežko
+        position: Assistant Professor of <a href="http://www.flf.vu.lt/en/structure/departments/department-of-russian-philology">Russian Filology</a> at Vilniaus universitetas (Lithuania)
+      - name: ^Taisija Oral
+        position: Independent Scholar (UAE)
+    - title: Gendered Flânerie in American Expat Literature
+      presenters: 
+      - name: Amy Wells
+        twitter: amywells06
+        position: Associate Professor of <a href="http://ufrlve.unicaen.fr/presentation/departements-de-l-ufr/langues-etrangeres-appliquees/">English</a> at Université de Caen Normandie (France)
+    - title: (Bristol App)
+      presenters:
+      - name: Rebecca Hutcheon
+        position: Research Associate in English and Creative Writing at Lancaster University and Teaching Fellow at University of Bristol (UK)
+---

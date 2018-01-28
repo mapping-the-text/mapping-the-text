@@ -1,0 +1,40 @@
+<div class="row mb-3">
+<div class="col-12">
+
+#### {{ panel.time }}: PANEL {{ panel.name }}
+
+</div></div>
+
+<div class="row mb-3">
+<div class="col-3"></div>
+<div class="col-9">
+
+{% for paper in panel.papers %}
+##### “{{ paper.title }}”
+
+<ul class="small">
+{% for presenter in paper.presenters %}
+<li>
+{% if presenter.personal-url %}
+<a href="http://{{ presenter.personal-url }}">{{ presenter.name }}</a>
+{% else %}
+{{ presenter.name }}
+{% endif %}
+{% if presenter.twitter %}
+ (<a href="http://twitter.com/{{ presenter.twitter }}">@{{ presenter.twitter }}</a>)
+{% endif %}
+— {{ presenter.position  }}
+</li>
+{% endfor %}
+</ul>
+{% if paper.project-url %}
+{% if paper.project %}
+{% assign project-text = paper.project %}
+{% else %}
+{% assign project-text = paper.project-url %}
+{% endif %}
+<p class="small ml-3">Project: <a href="{{ paper.project-url }}">{{ project-text }}</a></p>
+{% endif %}
+{% endfor %}
+</div></div>
+

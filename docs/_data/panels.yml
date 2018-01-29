@@ -19,7 +19,7 @@
     presenters:
     - name: José Luis Losada
       twitter: libropesia
-      position: Assistant Professor of <a href="http://www.ifr.uni.wroc.pl/pl">Spanish Philology</a> at the Universytet Wrocławski (Poland)
+      position: Assistant Professor of <a href="http://www.ifr.uni.wroc.pl/pl">Spanish Philology</a> at the Uniwersytet Wrocławski (Poland)
   - title: Mapping the Geographic Information of the Corpus
     presenters:
     - name: David Joseph Wrisley
@@ -64,8 +64,8 @@
       project-url: http://spanishtravelers.com
       project: The Spanish Travelers Project
       presenters:
-      - name: ^Eugenia Afinoguénova
-        position: Professor of <a href="http://www.marquette.edu/languages-literatures-cultures/index.shtml">Spanish</a> at Marquette University (USA)
+      - name: Eugenia Afinoguénova
+        position: Professor of <a href="http://www.marquette.edu/languages-literatures-cultures/index.shtml">Spanish Language and Culture</a> at Marquette University (USA)
     - title: (Landscape Corpus)
       presenters:
       - name: James O. Butler

@@ -13,7 +13,16 @@
 <div class="mt-3">
 ##### “{{ paper.title }}”
 
-<ul class="small" style="margin-bottom: 0">
+{% if paper.project-url %}
+{% if paper.project %}
+{% assign project-text = paper.project %}
+{% else %}
+{% assign project-text = paper.project-url %}
+{% endif %}
+<p class="small mb-1" style="margin-left: 2.5rem;">Project: <a href="{{ paper.project-url }}">{{ project-text }}</a></p>
+{% endif %}
+
+<ul class="small">
 {% for presenter in paper.presenters %}
 <li>
 {% if presenter.personal-url %}
@@ -28,14 +37,6 @@
 </li>
 {% endfor %}
 </ul>
-{% if paper.project-url %}
-{% if paper.project %}
-{% assign project-text = paper.project %}
-{% else %}
-{% assign project-text = paper.project-url %}
-{% endif %}
-<p class="small mt-1" style="margin-left: 2.5rem;">Project: <a href="{{ paper.project-url }}">{{ project-text }}</a></p>
-{% endif %}
 </div>
 {% endfor %}
 </div></div>

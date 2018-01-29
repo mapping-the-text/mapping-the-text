@@ -5,12 +5,16 @@
 
 </div></div>
 
-<div class="row mb-3">
-<div class="col-3"></div>
-<div class="col-9">
-
 {% for paper in panel.papers %}
-<div class="mt-3">
+<div class="row mb-3">
+<div class="col-3">
+{% if paper.image %}
+<a href="https://i.imgur.com/{{ paper.image }}.png">
+<img src="https://i.imgur.com/{{ paper.image }}.png" alt="Image for {{ paper.title }}" class="img-thumbnail" />
+</a>
+{% endif %}
+</div>
+<div class="col-9">
 ##### “{{ paper.title }}”
 
 {% if paper.project-url %}
@@ -37,7 +41,6 @@
 </li>
 {% endfor %}
 </ul>
-</div>
-{% endfor %}
 </div></div>
+{% endfor %}
 

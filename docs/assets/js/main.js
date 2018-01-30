@@ -39,7 +39,7 @@ $(document).ready(function() {
   });
 }); 
 
-$("#alert").html("<h4>Please enter your proposal below. We will email you confirmation on 12 January.</h4>");
+$("#alert").html("<h4>Please register below.</h4>");
 
 var request;
 $("#submission").submit(function(event){
@@ -65,7 +65,7 @@ $("#submission").submit(function(event){
     // request.done(function (response, textStatus, jqXHR){
     request.done(function (){
       $("#alert").removeClass("alert-danger");
-      $("#alert").addClass("alert-success").html("Thank you for your submission, " + name + ". You should receive an email at " + email + " confirming final receipt on 12 January.");
+      $("#alert").addClass("alert-success").html("Thank you for your registration, " + name + ". See you in April!");
     });
 
     request.fail(function (jqXHR, textStatus, errorThrown){

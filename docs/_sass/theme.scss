@@ -198,6 +198,11 @@ form {
     background-color: $cyan;
     border-color: $green;
   }
+
+  .input-group-text {
+    border-color: $base1;
+    background-color: $base3;
+  }
 }
 
 .img-thumbnail {

@@ -76,10 +76,12 @@
   time: "14:45"
   papers:
     - title: "Mapping and Interpreting Fictional Vilnius: City Syntax and Semantics in the Prose of Gavelis, Kunčinas, and Ramonas"
+      project-url: http://www.vilniusliterature.flf.vu.lt/en/
+      project: Vilnius Literature
       presenters: 
       - name: Julija Snežko
         position: Assistant Professor of <a href="http://www.flf.vu.lt/en/structure/departments/department-of-russian-philology">Russian Filology</a> at Vilniaus universitetas (Lithuania)
-      - name: ^Taisija Oral
+      - name: Taisija Oral
         position: Independent Scholar (UAE)
     - title: Gendered Flânerie in American Expat Literature
       presenters: 

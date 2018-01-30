@@ -16,13 +16,17 @@ title: 2018 Conference Schedule
 </div> 
 <div class="col-9">
 
-* *Culture Mapping* event hosted by [NewYorkScapes](http://newyorkscapes.org)
+#### *Culture Mapping* event hosted by [NewYorkScapes](http://newyorkscapes.org)
+
+NewYorkScapes will be holding its annual CultureMapping@NYU event at [NYU
+Libraries](http://library.nyu.edu). The day will feature workshops and skills
+training opportunities. The day events will be followed by a mixer hosted by
+NewYorkScapes and the Mapping the Text 2018 Conference on Friday evening.
 
 </div></div>
 
-### Saturday, 21 April 2018
-
-(All locations TBA)
+<h3>Saturday, 21 April 2018 <br />
+<small>[Elmer Holmes Bobst Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/)</small></h3>
 
 <div class="row mb-3">
 <div class="col-12">

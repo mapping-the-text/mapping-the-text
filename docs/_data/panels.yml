@@ -1,6 +1,9 @@
 ---
 - name: Pre-Cartesian Cartographies
   time: "9:45"
+  img:
+    url: tPD4O4D
+    text: Icelandic Saga Map
   papers:
   - title: (Herdotus’s _Histories_)
     project-url:
@@ -28,6 +31,9 @@
       personal-url: djwrisley.com
 - name: City-Text-Map
   time: "11:15"
+  img:
+    url: qewOM3x
+    text: Defoe’s London
   papers:
     - title: "A ‘Frightful Number!’: Mapping Daniel Defoe’s _A Journal of the Plague Year_"
       project-url: http://hofstra.github.io/itinerary/plague-year/
@@ -49,6 +55,9 @@
         position: MA student in <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
 - name: Mapping Archives
   time: "13:30"
+  img:
+    url: rQE0VxT
+    text: Borderlands newspaper
   papers:
     - title: "Mapping Newspapers: Visualizing Borderlands Histories through Geospatial Analysis"
       project-url: http://bacartography.org
@@ -74,6 +83,9 @@
         twitter: ludonymist
 - name: Iterated Urban Geographies
   time: "14:45"
+  img:
+    url: wqxzt6y
+    text: Kunčinas’s Vilnius
   papers:
     - title: "Mapping and Interpreting Fictional Vilnius: City Syntax and Semantics in the Prose of Gavelis, Kunčinas, and Ramonas"
       project-url: http://www.vilniusliterature.flf.vu.lt/en/

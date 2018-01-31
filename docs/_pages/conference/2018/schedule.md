@@ -4,21 +4,15 @@ permalink: /conference/2018/schedule
 title: 2018 Conference Schedule
 ---
 
-## Tentative Schedule
+## Schedule
 
-### Friday, {{ site.conf-deadline }}
+<h3>Friday, 20 April 2018<br />
+<small>[Elmer Holmes Bobst Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/)</small> </h3>
 
-<div class="row mb-3">
-<div class="col-3"></div>
-<div class="col-9">
-
-* Proposals due. [Submit proposal](/conference/2018/submit)
-  ([CFP](/conference/2018/cfp)).
-
+<div class="row">
+<div class="col-12">
+#### CultureMapping@NYU
 </div></div>
-
-### Friday, 20 April 2018
-
 <div class="row mb-3">
 <div class="col-3">
 
@@ -27,37 +21,65 @@ title: 2018 Conference Schedule
 </div> 
 <div class="col-9">
 
-* *Culture Mapping* event hosted by [NewYorkScapes](http://newyorkscapes.org)
+
+[NewYorkScapes](http://newyorkscapes.org) will be holding its annual CultureMapping@NYU. The day will feature workshops and skills
+training opportunities. The day events will be followed by a mixer hosted by
+NewYorkScapes and the Mapping the Text 2018 Conference in the evening.
 
 </div></div>
 
-### Saturday, 21 April 2018
-<div class="row mb-3">
-<div class="col-3"></div>
-<div class="col-9">
+<h3>Saturday, 21 April 2018 <br />
+<small>[Elmer Holmes Bobst Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/)</small></h3>
 
-(All locations TBA)
+<div class="row">
+<div class="col-12">
 
-* 9:00: Coffee
-* 9:30: Greeting
-* 10:00: First Panel
-* 11:15: Second Panel
-* 12:30: Lunch
-* 13:30: Third Panel
-* 14:45: Fourth Panel
-* 16:00: Tea & Posters
+#### 9:00: Coffee
+
+</div></div>
+<div class="row">
+<div class="col-12">
+
+#### 9:30: Greeting
+
+</div></div>
+{% assign panel = site.data.panels[0] %}
+{% include panel-mini.html %}
+
+{% assign panel = site.data.panels[1] %}
+{% include panel-mini.html %}
+
+<div class="row">
+<div class="col-12">
+#### 12:30: Lunch
 </div></div>
 
+{% assign panel = site.data.panels[2] %}
+{% include panel-mini.html %}
+
+{% assign panel = site.data.panels[3] %}
+{% include panel-mini.html %}
+
+<div class="row">
+<div class="col-12">
+#### 16:00: Tea & Posters
+</div></div>
 <div class="row mb-3">
 <div class="col-3">
-
-<img src="https://i.imgur.com/pf6RDw3.jpg" class="img-thumbnail" alt="Prof. Sally Bushell" />
-
 </div> 
 <div class="col-9">
+List of poster presenters to come.
+</div></div>
 
-* 17:00: Plenary, [Professor Sally Bushell](http://www.lancaster.ac.uk/english-literature-and-creative-writing/about-us/staff/sally-bushell), Lancaster University
-
+<div class="row">
+<div class="col-12">
+#### 17:00: Plenary, [Professor Sally Bushell](http://www.lancaster.ac.uk/english-literature-and-creative-writing/about-us/staff/sally-bushell), Lancaster University (UK)
+</div></div>
+<div class="row mb-3">
+<div class="col-3">
+<img src="https://i.imgur.com/pf6RDw3.jpg" class="img-thumbnail" alt="Prof. Sally Bushell" />
+</div> 
+<div class="col-9">
 <p class="small">Sally Bushell is Professor of Romantic and Victorian Literature in the Department of English Literature & Creative Writing, Lancaster University. She is also Head of Department (2014–18) and Co-Director of The Wordsworth Centre. Her research seeks to open up new modes of interpretation for the literary
 work by enlarging the focus of literary criticism from interpretation of
 semantic content onto comparative understanding of other aspects of the
@@ -83,10 +105,16 @@ integrated reading of spatial meaning through map and text. </p>
 
 ### Sunday, 22 April 2018
 
+<div class="row">
+<div class="col-12">
+#### Informal Skills Workshops or Hackathon
+</div></div>
 <div class="row mb-3">
 <div class="col-3"></div>
 <div class="col-9">
 
-* Informal skills workshops or hackathon
+We don’t yet know precisely what (or where), but for people still around,
+we’ll have an informal debriefing session where we can drink some coffee and
+discuss what we’ve learned.
 
-</div>
+</div></div>

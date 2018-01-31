@@ -1,0 +1,30 @@
+<div class="row">
+<div class="col-12">
+
+#### {{ panel.time }}: **{{ panel.name }}**
+
+</div></div>
+
+<div class="row mb-3">
+<div class="d-flex align-items-center col-3">
+<img src="https://i.imgur.com/{{ panel.img.url }}.png" alt="{{ panel.img.text }}" class="img-thumbnail" />
+</div>
+<div class="col-9">
+<ul class="small">
+{% for paper in panel.papers %}
+{% for presenter in paper.presenters %}
+<li>
+{% if presenter.personal-url %}
+<a href="http://{{ presenter.personal-url }}">{{ presenter.name }}</a>
+{% else %}
+{{ presenter.name }}
+{% endif %}
+{% if presenter.twitter %}
+ (<a href="http://twitter.com/{{ presenter.twitter }}">@{{ presenter.twitter }}</a>)
+{% endif %}
+— {{ presenter.position  }}
+</li>
+{% endfor %}
+{% endfor %}
+</ul>
+</div></div>

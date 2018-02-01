@@ -103,7 +103,9 @@ integrated reading of spatial meaning through map and text. </p>
 
 </div></div>
 
-### Sunday, 22 April 2018
+<h3> Sunday, 22 April 2018 <br />
+<small>[NYU Department of English](http://as.nyu.edu/english.html), 244
+Greene, room 106</small> </h3>
 
 <div class="row">
 <div class="col-12">
@@ -113,7 +115,7 @@ integrated reading of spatial meaning through map and text. </p>
 <div class="col-3"></div>
 <div class="col-9">
 
-We don’t yet know precisely what (or where), but for people still around,
+We don’t yet know precisely what, but for people still around,
 we’ll have an informal debriefing session where we can drink some coffee and
 discuss what we’ve learned.
 

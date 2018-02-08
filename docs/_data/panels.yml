@@ -5,8 +5,10 @@
     url: tPD4O4D
     text: Icelandic Saga Map
   papers:
-  - title: (Herdotus’s _Histories_)
-    project-url:
+  - title: "Mapping an Ancient Text: Countercartography, Networks, and the Practice of Annotation"
+    project-url: http://hestia.open.ac.uk/
+    project: Hestia
+    image: lz87ol6.jpg
     presenters:
     - name: Elton Barker
       twitter: eltonteb
@@ -72,7 +74,7 @@
     - title: "Letters from Spain in a Time/Space Box: Understanding the Chronotopes of 19th-century Travel and Travelogues through 3D Literary Mapping"
       project-url: http://spanishtravelers.com
       project: The Spanish Travelers Project
-      image: RHU6wIF
+      image: RHU6wIF.png
       presenters:
       - name: Eugenia Afinoguénova
         position: Professor of <a href="http://www.marquette.edu/languages-literatures-cultures/index.shtml">Spanish Language and Culture</a> at Marquette University (USA)

@@ -7,6 +7,12 @@ redirect-from:
  - /cfp-2018
 ---
 
+<div class="alert alert-secondary">
+
+## Reminder: [Registration](/conference/2018/registration) is _mandatory_ to gain access to the library 
+
+</div>
+
 <!-- <img src="https://i.imgur.com/DfBd9YN.png" class="img-fluid"> -->
 <!-- <small class="text-right blockquote-footer"> -->
 <!-- Bartholomew, J. G., and B. Roth. _A Literary & Historical Atlas of Europe_. 1910. -->

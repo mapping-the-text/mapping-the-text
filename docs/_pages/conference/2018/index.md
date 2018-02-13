@@ -2,16 +2,11 @@
 layout: conference
 permalink: /conference/2018/
 title: Mapping the Text Conference 2018
+show-reg: true
 redirect-from: 
  - "/"
  - /cfp-2018
 ---
-
-<div class="alert alert-secondary">
-
-## Reminder: [Registration](/conference/2018/registration) is _mandatory_ to gain access to the library 
-
-</div>
 
 <!-- <img src="https://i.imgur.com/DfBd9YN.png" class="img-fluid"> -->
 <!-- <small class="text-right blockquote-footer"> -->

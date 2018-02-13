@@ -39,7 +39,7 @@ $(document).ready(function() {
   });
 }); 
 
-$("#alert").html("<h4>Please register below.</h4>");
+$("#alert").html("<h2>Registration is <i>Mandatory</i></h2>");
 
 var request;
 $("#submission").submit(function(event){
@@ -53,7 +53,7 @@ $("#submission").submit(function(event){
   var email = $("#email").val();
   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   if (!regex.test(email)){
-    $("#alert").addClass("alert-danger").html("The email address does not appear valid.");
+    $("#alert").addClass("alert alert-danger").html("The email address does not appear valid.");
     request.abort();
   } else {
     inputs.prop("disabled", true);
@@ -64,12 +64,12 @@ $("#submission").submit(function(event){
     });
     // request.done(function (response, textStatus, jqXHR){
     request.done(function (){
-      $("#alert").removeClass("alert-danger");
-      $("#alert").addClass("alert-success").html("Thank you for your registration, " + name + ". See you in April!");
+      $("#alert").removeClass("alert alert-danger");
+      $("#alert").addClass("alert alert-success").html("Thank you for your registration, " + name + ". See you in April!");
     });
 
     request.fail(function (jqXHR, textStatus, errorThrown){
-      $("#alert").addClass("alert-danger").html("The following error occurred: "+
+      $("#alert").addClass("alert alert-danger").html("The following error occurred: "+
         textStatus + ", " +  errorThrown);
     });
 

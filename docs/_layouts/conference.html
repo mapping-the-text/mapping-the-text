@@ -45,6 +45,9 @@
           </div>
         </div>
         <div class="col-md-7  order-1">
+          {% if page.show-reg %}
+            {% include reg_form.html %}
+          {% endif %}
           {{ content }}
         </div>
       </div>

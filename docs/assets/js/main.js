@@ -39,7 +39,7 @@ $(document).ready(function() {
   });
 }); 
 
-$("#alert").html("<h2>Registration is <i>Mandatory</i></h2>");
+$("#alert").html("<h2>Kindly register for access:</h2>");
 
 var request;
 $("#submission").submit(function(event){

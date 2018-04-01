@@ -3,8 +3,15 @@
 	padding: .5rem;
 }
 
-#map {
+#baburnama, #travel {
   height: 450px;
+}
+
+.leaflet-div-icon {
+  background: none;
+  border: none;
+  font-size: 250%;
+  color: $magenta;
 }
 
 .leaflet-container .leaflet-control-attribution {

@@ -2,6 +2,7 @@
 layout: conference
 permalink: /conference/2018/
 title: Mapping the Text Conference 2018
+map: true
 show-reg: true
 redirect-from: 
   - "/"
@@ -14,5 +15,5 @@ redirect-from:
 <!-- </small> -->
 
 <div class="neatline">
-<div id="map"></div>
+<div id="baburnama"></div>
 </div>

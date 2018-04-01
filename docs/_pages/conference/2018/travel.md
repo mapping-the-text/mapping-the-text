@@ -2,7 +2,12 @@
 layout: conference
 permalink: /conference/2018/travel
 title: Mapping the Text Conference 2018
+map: true
 ---
+
+<div class="neatline">
+<div id="travel"></div>
+</div>
 
 ## Locations:
 

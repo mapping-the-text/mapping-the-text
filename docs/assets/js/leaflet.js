@@ -1,5 +1,58 @@
-if ($("#map").length > 0){
-  let map = L.map("map", {
+if ($("#travel").length > 0){
+  const map = L.map("travel", {
+    center: [40.730833, -73.9975],
+    zoom: 16,
+    minZoom: 14
+  });
+  L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanita    rian OpenStreetMap Team</a>'
+  }).addTo(map);
+
+  const places = [
+    { name: "Bobst Library",
+      coords: [40.729628, -73.997293],
+      icon: "book"
+  },
+    { name: "244 Greene",
+      coords: [40.730024, -73.994911],
+      icon: "graduation-cap"
+  },
+    { name: "Washington Sq. Hotel",
+      coords: [40.732675, -73.998731],
+      icon: "bed"
+  },
+    { name: "NY Dosa Truck",
+      coords: [40.731032, -73.998967],
+      icon: "utensils"
+  },
+    { name: "Mamoun’s Falafel",
+      coords: [40.730186, -74.000473],
+      icon: "utensils"
+  },
+    { name: "Ben’s Pizzeria",
+      coords: [40.730604, -74.000419],
+      icon: "utensils"
+  },
+    { name: "Tiny Atlas Café",
+      coords: [40.728791, -73.994798],
+      icon: "utensils"
+  }
+  ];
+  const placesLayer = L.layerGroup();
+  places.forEach( place => {
+    placesLayer.addLayer(L.marker(place.coords,
+      { icon: L.divIcon(
+        { html: "<i class='fa fa-" + place.icon + "'></i>", iconSize: [30, 30] }
+      )}
+    ).bindTooltip(place.name))
+  });
+  placesLayer.addTo(map);
+}
+
+
+if ($("#baburnama").length > 0){
+  let map = L.map("baburnama", {
     zoom: 4,
     minZoom: 4,
     center: [31.952162238024975, 69.91699218750001],

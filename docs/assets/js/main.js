@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  let externalLink = $.parseHTML("<span>&nbsp;<i class='fa fa-small fa-external-link'></i></span>");
+  let externalLink = $.parseHTML("<span>&nbsp;<i style='font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>");
   $("a[href^='http']:not(a:has(img))").append(externalLink);
   // $("a[href^='http'] :not(img)").append(externalLink);
   $("a[href^='http']").attr("target", "_blank");

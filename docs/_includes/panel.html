@@ -38,6 +38,12 @@
  (<a href="http://twitter.com/{{ presenter.twitter }}">@{{ presenter.twitter }}</a>)
 {% endif %}
 — {{ presenter.position  }}
+{% if presenter.bio %}
+<details>
+<summary>Bio</summary>
+{{ presenter.bio }}
+</details>
+{% endif %}
 </li>
 {% endfor %}
 </ul>

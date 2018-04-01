@@ -6,30 +6,12 @@ title: 2018 Conference Schedule
 
 ## Schedule
 
-<h3>Friday, 20 April 2018<br />
-<small>[Elmer Holmes Bobst Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/)</small> </h3>
-
-<div class="row">
-<div class="col-12">
-#### CultureMapping@NYU
-</div></div>
-<div class="row mb-3">
-<div class="col-3">
-
-<img src="https://i.imgur.com/Z9ByYGF.png" class="img-thumbnail" alt="NewYorkScapes" />
-
-</div> 
-<div class="col-9">
-
-
-[NewYorkScapes](http://newyorkscapes.org) will be holding its annual CultureMapping@NYU. The day will feature workshops and skills
-training opportunities. The day events will be followed by a mixer hosted by
-NewYorkScapes and the Mapping the Text 2018 Conference in the evening.
-
-</div></div>
+{% include culture_mapping.html %} 
 
 <h3>Saturday, 21 April 2018 <br />
-<small>[Elmer Holmes Bobst Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/)</small></h3>
+<small>[Elmer Holmes Bobst
+Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/), Room
+745</small></h3>
 
 <div class="row">
 <div class="col-12">
@@ -51,7 +33,7 @@ NewYorkScapes and the Mapping the Text 2018 Conference in the evening.
 
 <div class="row">
 <div class="col-12">
-#### 12:30: Lunch
+#### 12:30: Lunch (not provided, see [here](./travel#lunch) for suggestions)
 </div></div>
 
 {% assign panel = site.data.panels[2] %}
@@ -103,20 +85,5 @@ integrated reading of spatial meaning through map and text. </p>
 
 </div></div>
 
-<h3> Sunday, 22 April 2018 <br />
-<small>[NYU Department of English](http://as.nyu.edu/english.html), 244
-Greene, room 106</small> </h3>
+{% include hackathon.html %}
 
-<div class="row">
-<div class="col-12">
-#### Informal Skills Workshops or Hackathon
-</div></div>
-<div class="row mb-3">
-<div class="col-3"></div>
-<div class="col-9">
-
-We don’t yet know precisely what, but for people still around,
-we’ll have an informal debriefing session where we can drink some coffee and
-discuss what we’ve learned.
-
-</div></div>

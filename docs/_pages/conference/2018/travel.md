@@ -16,6 +16,15 @@ MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 [244 Greene St.](https://www.openstreetmap.org/way/248166241) <br />
 MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 
+## Food:
+
+### Lunch
+
+* NY Dosa Truck, Washington Sq. Park. ~$8, **cash only**
+* Mamoun’s Falafel, MacDougal St. ~$5, **cash only**
+* Ben’s Pizzeria, MacDougal St. ~$5, **cash only**
+* Tiny Atlas Café (vegan sandwiches), 4th St. ~$8
+
 ## Accommodation:
 
 ### [Washington Square Hotel](http://www.washingtonsquarehotel.com)
@@ -25,13 +34,4 @@ MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 
 Rate: $287/night _before_ tax ([make a
 reservation with our group rate](https://book.b4checkin.com/chameleon/washingtonsquarehotel/rlp/MappingtheText))
-
-## Food:
-
-### Lunch
-
-* NY Dosa Truck, Washington Sq. Park. ~$8, **cash only**
-* Mamoun’s Falafel, MacDougal St. ~$5, **cash only**
-* Ben’s Pizzeria, MacDougal St. ~$5, **cash only**
-* Tiny Atlas Café (vegan sandwiches), 4th St. ~$8
 

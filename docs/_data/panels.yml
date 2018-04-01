@@ -63,6 +63,7 @@
     text: Borderlands newspaper
   papers:
     - title: "Mapping Newspapers: Visualizing Borderlands Histories through Geospatial Analysis"
+      image: HtGFbr0.jpg
       project-url: http://bacartography.org
       project: Borderlands Archives Cartography
       presenters:

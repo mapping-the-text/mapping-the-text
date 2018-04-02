@@ -44,15 +44,8 @@ Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/), Room
 
 <div class="row">
 <div class="col-12">
-#### 16:00: Tea & Posters
+#### 16:00: Tea
 </div></div>
-<div class="row mb-3">
-<div class="col-3">
-</div> 
-<div class="col-9">
-List of poster presenters to come.
-</div></div>
-
 <div class="row">
 <div class="col-12">
 #### 17:00: Plenary, [Professor Sally Bushell](http://www.lancaster.ac.uk/english-literature-and-creative-writing/about-us/staff/sally-bushell), Lancaster University (UK)

@@ -30,7 +30,7 @@
     image: RZitv7c.png
     presenters:
     - name: David Joseph Wrisley
-      bio: "David Wrisley is Associate Professor of Digital Humanities at NYU Abu Dhabi. His research interests include open, inclusive corpora in medieval studies, corpus-based geovisualization as well as visual exploration of variance in poetic traditions. He is also interested in the challenges of social data creation in the humanities as well as digital humanities in multilingual, non-Western environments."
+      bio: "David Wrisley is Associate Professor of Digital Humanities at <a href='https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities.html'>NYU Abu Dhabi</a>. His research interests include open, inclusive corpora in medieval studies, corpus-based geovisualization as well as visual exploration of variance in poetic traditions. He is also interested in the challenges of social data creation in the humanities as well as digital humanities in multilingual, non-Western environments."
       twitter: djwrisley
       position: Associate Professor of Digital Humanities at <a href="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities.html">NYU Abu Dhabi</a> (UAE)
       personal-url: djwrisley.com
@@ -56,7 +56,7 @@
       presenters:
       - name: Ken Hammond
         position: Professor of <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
-        bio: "Ken Hammond is Professor of East Asian History at New Mexico State University. He is the author of numerous books and articles on Chinese intellectual and cultural history, especially in the Ming dynasty (1368–1644). His current research in on the transformation and representation of cities in early modern China, from the 11th through the 18th centuries."
+        bio: "Ken Hammond is Professor of <a href='http://history.nmsu.edu/'>East Asian History</a> at New Mexico State University. He is the author of numerous books and articles on Chinese intellectual and cultural history, especially in the Ming dynasty (1368–1644). His current research in on the transformation and representation of cities in early modern China, from the 11th through the 18th centuries."
       - name: Pete Mattox
         position: MA student in <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
 - name: Mapping Archives
@@ -73,18 +73,19 @@
       - name: Sylvia Fernández
         position: PhD Candidate in <a href="https://ssl.uh.edu/class/spanish/">Hispanic Studies</a> at University of Houston (USA)
         twitter: sferna109
-        bio: "Sylvia Fernández is a Ph.D. Candidate in Hispanic Studies and a Research Fellow with Recovering the U.S. Hispanic Literary Heritage at the University of Houston. She is the co-founder of Borderlands Archive Cartography project. Her research is in U.S. Latina/o Literature with a focus on U.S.-Mexico border studies, feminist theory, archives and digital humanities."
+        bio: "Sylvia Fernández is a Ph.D. Candidate in <a href='https://ssl.uh.edu/class/spanish/'>Hispanic Studies</a> and a Research Fellow with <a href='https://artepublicopress.com/recovery-project/'>Recovering the U.S. Hispanic Literary Heritage</a> at the University of Houston. She is the co-founder of <a href='http://bacartography.org'>Borderlands Archive Cartography</a> project. Her research is in U.S. Latina/o Literature with a focus on U.S.-Mexico border studies, feminist theory, archives and digital humanities."
       - name: Maira Álvarez
-        bio: "Maira E. Álvarez’s research interests lie in the study of contemporary U.S. Latino, Border and Latin American Literature as well as Women’s Studies. She is a co-founder of Borderlands Archives Cartography (BAC), dedicated to map nineteenth to twentieth century U.S.-Mexico borderland newspapers."
+        bio: "Maira E. Álvarez’s research interests lie in the study of contemporary U.S. Latino, Border and Latin American Literature as well as Women’s Studies. She is a co-founder of <a href='http://bacartography.org'>Borderlands Archives Cartography</a>, dedicated to map nineteenth to twentieth century U.S.-Mexico borderland newspapers."
         position: PhD Candidate in <a href="https://ssl.uh.edu/class/spanish/">Hispanic Studies</a> at University of Houston (USA)
         twitter: fronteriza956
     - title: "Letters from Spain in a Time/Space Box: Understanding the Chronotopes of 19th-century Travel and Travelogues through 3D Literary Mapping"
       project-url: http://spanishtravelers.com
       project: The Spanish Travelers Project
-      image: RHU6wIF.png
+      image: xUyjb1v.jpg
       presenters:
       - name: Eugenia Afinoguénova
         position: Professor of <a href="http://www.marquette.edu/languages-literatures-cultures/index.shtml">Spanish Language and Culture</a> at Marquette University (USA)
+        bio: "Eugenia Afinoguénova’s recent book is <a href='https://www.psupress.org/books/titles/978-0-271-07857-1.html'><i>The Prado: Spanish Culture and Leisure, 1819–1939</i></a> (2018), for which she also designed an <a href='http://prado.nfshost.com'>augmented-reality reconstruction</a>. For her present project, Afinoguénova has teamed up with <a href='http://uwm.edu/libraries/agsl/'>American Geographical Society Library at University of Wisconsin-Milwaukee</a> to visualize interconnections between the times and spaces of travel narratives and the speed of travel itself."
     - title: (Landscape Corpus)
       presenters:
       - name: James O. Butler
@@ -113,6 +114,6 @@
       image: 9HnLPBw.jpg
       presenters:
       - name: Rebecca Hutcheon
-        bio: "Rebecca Hutcheon is a senior teaching associate at the University of Bristol, and a post-doctoral researcher on the AHRC-funded “Chronotopic Cartographies” at Lancaster University. Her monograph, <em>Writing Place</em>, was published by Routledge in 2018. She has also published on mapping urban space, the country house motif, Bakhtin and Tennyson. Her research interests include: George Gissing and the fin-de-siècle, literature and place, and the long nineteenth century. She is also the co-creator of the smart-phone app: Romantic Bristol: Writing the City."
+        bio: "Rebecca Hutcheon is a senior teaching associate at the University of Bristol, and a post-doctoral researcher on the AHRC-funded “<a href='https://chronotopiccartography.wordpress.com/'>Chronotopic Cartographies</a>” at Lancaster University. Her monograph, <a href='https://www.routledge.com/Writing-Place-Mimesis-Subjectivity-and-Imagination-in-the-Works-of-George/Hutcheon/p/book/9780815385820'><em>Writing Place</em></a>, was published by Routledge in 2018. She has also published on mapping urban space, the country house motif, Bakhtin and Tennyson. Her research interests include: George Gissing and the fin-de-siècle, literature and place, and the long nineteenth century. She is also the co-creator of the smart-phone app: <a href='https://itunes.apple.com/gb/app/romantic-bristol-writing-the-city/id996945384?mt=8'>Romantic Bristol: Writing the City</a>."
         position: Research Associate in English and Creative Writing at Lancaster University and Teaching Fellow at University of Bristol (UK)
 ---

@@ -66,8 +66,9 @@ List of poster presenters to come.
 work by enlarging the focus of literary criticism from interpretation of
 semantic content onto comparative understanding of other aspects of the
 literary work in ways that not only illuminate traditional models but,
-potentially, re-determine them.  Her first book was entitled _Text as Process:
-Creative Composition in Wordsworth, Tennyson and Dickinson_ (Virginia UP, 2009). 
+potentially, re-determine them.  Her first book was entitled [_Text as Process:
+Creative Composition in Wordsworth, Tennyson and
+Dickinson_](http://www.upress.virginia.edu/title/1022) (Virginia UP, 2009). 
 Her second book which will go to press in 2019 is called _Reading and Mapping:
 Spatialising the Text_ and is centered upon the relationship between
 visual/spatial and verbal meanings for the literary work, offering an

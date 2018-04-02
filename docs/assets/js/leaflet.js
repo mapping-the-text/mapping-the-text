@@ -6,10 +6,17 @@ if ($("#travel").length > 0){
   });
   L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanita    rian OpenStreetMap Team</a>'
-  }).addTo(map);
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>' }).addTo(map);
 
   const places = [
+    { name: "W. 4th St.-Washington Sq. (A, C, E, B, D, F, M)",
+      coords: [40.731113, -74.001224],
+      icon: "subway"
+  },
+    { name: "8th St.-NYU (R, W [N, Q])",
+      coords: [40.730641, -73.992684],
+      icon: "subway"
+  },
     { name: "Bobst Library",
       coords: [40.729628, -73.997293],
       icon: "book"

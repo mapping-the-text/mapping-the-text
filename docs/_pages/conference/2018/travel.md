@@ -11,19 +11,19 @@ map: true
 
 ## Locations:
 
-### [Elmer Holmes Bobst Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/)
+### [Elmer Holmes Bobst Library <i class="fa fa-book"></i>](http://library.nyu.edu/locations/elmer-holmes-bobst-library/)
 
 [70 Washington Square South](https://www.openstreetmap.org/way/248166208) <br />
-MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
+MTA <i class="fa fa-subway"></i>: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 
-### [NYU Department of English](http://as.nyu.edu/english.html)
+### [NYU Department of English <i class="fa fa-graduation-cap"></i>](http://as.nyu.edu/english.html)
 
 [244 Greene St.](https://www.openstreetmap.org/way/248166241) <br />
-MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
+MTA <i class="fa fa-subway"></i>: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 
 ## Food:
 
-### Lunch
+### Lunch <i class="fa fa-utensils"></i>
 
 * NY Dosa Truck, Washington Sq. Park. ~$8, **cash only**
 * Mamoun’s Falafel, MacDougal St. ~$5, **cash only**
@@ -32,7 +32,7 @@ MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 
 ## Accommodation:
 
-### [Washington Square Hotel](http://www.washingtonsquarehotel.com)
+### [Washington Square Hotel <i class="fa fa-bed"></i>](http://www.washingtonsquarehotel.com)
 
 [103 Waverly Place, New York, NY 10011](https://www.openstreetmap.org/node/2358048514) <br />
 MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place

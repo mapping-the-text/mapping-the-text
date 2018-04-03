@@ -54,12 +54,14 @@
         twitter: kelley_kreitz
         personal-url: kelleykreitz.com
     - title: Towards a Geospatial Historiography of Beijing
+      image: WFc5asq.jpg
       presenters:
       - name: Ken Hammond
         position: Professor of <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
         bio: "Ken Hammond is Professor of <a href='http://history.nmsu.edu/'>East Asian History</a> at New Mexico State University. He is the author of numerous books and articles on Chinese intellectual and cultural history, especially in the Ming dynasty (1368–1644). His current research in on the transformation and representation of cities in early modern China, from the 11th through the 18th centuries."
       - name: Pete Mattox
         position: MA student in <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
+        bio: "Pete Mattox is a master’s candidate in <a href='http://history.nmsu.edu/'>history</a> at New Mexico State University. With a background in geography and GIS, his primary research interests are historical cartography and GIS, long-term environmental change, and China during the Qing Dynasty (1636–1912)."
 - name: Mapping Archives
   time: "13:30"
   img:

@@ -1,5 +1,6 @@
 ---
 - name: Pre-Cartesian Cartographies
+  presenter: Zachary Humphrey
   time: "9:45"
   img:
     url: tPD4O4D
@@ -40,6 +41,7 @@
       position: Associate Professor of Digital Humanities at <a href="https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities.html">NYU Abu Dhabi</a> (UAE)
       personal-url: djwrisley.com
 - name: City-Text-Map
+  presenter: Nicholas Wolf
   time: "11:15"
   img:
     url: qewOM3x
@@ -80,6 +82,7 @@
         position: MA student in <a href="http://history.nmsu.edu/">History</a> at New Mexico State University (USA)
         bio: "Pete Mattox is a master’s candidate in <a href='http://history.nmsu.edu/'>history</a> at New Mexico State University. With a background in geography and GIS, his primary research interests are historical cartography and GIS, long-term environmental change, and China during the Qing Dynasty (1636–1912)."
 - name: Mapping Archives
+  presenter: Blevin Shelnutt
   time: "13:30"
   img:
     url: HtGFbr0
@@ -114,6 +117,7 @@
         twitter: ludonymist
         bio: "James is a Research Associate on the AHRC-funded “<a href='https://chronotopiccartography.wordpress.com/'>Chronotopic Cartographies for Literature</a>.” His background is in psycholinguistics, focused particularly around names and naming, cognitive toponymy, the linguistic characteristics of spatial description, and mental map formation. He also specialises in adapting games (tabletop, Minecraft, and text-adventures) as tools for psychological assessment."
 - name: Iterated Urban Geographies
+  presenter: TBA
   time: "14:45"
   img:
     url: wqxzt6y

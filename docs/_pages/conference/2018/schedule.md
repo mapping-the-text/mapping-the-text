@@ -2,6 +2,8 @@
 layout: conference
 permalink: /conference/2018/schedule
 title: 2018 Conference Schedule
+redirect-from: 
+  - "/conference/2018/schedule-w-program/"
 ---
 
 ## Schedule
@@ -13,40 +15,42 @@ title: 2018 Conference Schedule
 Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/), Room
 745</small></h3>
 
-<div class="row">
+<div class="row mb-3">
 <div class="col-12">
 
 #### 9:00: Coffee
 
 </div></div>
-<div class="row">
+<div class="row mb-3">
 <div class="col-12">
 
 #### 9:30: Greeting
+<p class="text-right mb-0"><small><i>Moacir P. de Sá Pereira, NYU</i></small></p>
 
 </div></div>
 {% assign panel = site.data.panels[0] %}
-{% include panel-mini.html %}
+{% include panel.html %}
 
 {% assign panel = site.data.panels[1] %}
-{% include panel-mini.html %}
+{% include panel.html %}
 
-<div class="row">
+<div class="row mb-3">
 <div class="col-12">
 #### 12:30: Lunch (not provided, see [here](./travel#lunch) for suggestions)
 </div></div>
 
 {% assign panel = site.data.panels[2] %}
-{% include panel-mini.html %}
+{% include panel.html %}
 
 {% assign panel = site.data.panels[3] %}
-{% include panel-mini.html %}
+{% include panel.html %}
 
-<div class="row">
+<div class="row mb-3">
+<div class="row mb-3">
 <div class="col-12">
 #### 16:00: Tea
 </div></div>
-<div class="row">
+<div class="row mb-3">
 <div class="col-12">
 #### 17:00: Plenary, [Professor Sally Bushell](http://www.lancaster.ac.uk/english-literature-and-creative-writing/about-us/staff/sally-bushell), Lancaster University (UK)
 </div></div>
@@ -80,4 +84,3 @@ integrated reading of spatial meaning through map and text. </p>
 </div></div>
 
 {% include hackathon.html %}
-

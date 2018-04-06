@@ -4,7 +4,7 @@ permalink: /conference/2018/
 title: Mapping the Text Conference 2018
 map: true
 show-reg: true
-redirect-from: 
+redirect_from: 
   - "/"
   - "/cfp-2018"
 ---

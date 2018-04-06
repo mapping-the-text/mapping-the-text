@@ -2,8 +2,7 @@
 layout: conference
 permalink: /conference/2018/schedule
 title: 2018 Conference Schedule
-redirect-from: 
-  - "/conference/2018/schedule-w-program/"
+redirect_from: /conference/2018/schedule-w-program
 ---
 
 ## Schedule

@@ -6,6 +6,7 @@
     text: Icelandic Saga Map
   papers:
   - title: "Mapping an Ancient Text: Countercartography, Networks, and the Practice of Annotation"
+    project-string: "Projects: <a href='http://hestia.open.ac.uk/'>Hestia</a> and <a href='http://commons.pelagios.org'>Pelagios</a>"
     project-url: http://hestia.open.ac.uk/
     project: Hestia
     image: lz87ol6.jpg
@@ -45,11 +46,22 @@
     text: Defoe’s London
   papers:
     - title: "A ‘Frightful Number!’: Mapping Daniel Defoe’s _A Journal of the Plague Year_"
+      image: qewOM3x.png
       project-url: http://hofstra.github.io/itinerary/plague-year/
       project: A “Frightful Number!” – Mapping Daniel Defoe’s <i>A Journal of the Plague Year</i>
       presenters:
       - name: Adam Sills
         position: Associate Professor of <a href="https://www.hofstra.edu/academics/colleges/hclas/engl/index.html">English</a> at Hofstra University (USA)
+        bio: "Dr. Adam Sills received his B.A. from Hamilton College in 1991 and his Ph.D. in English from
+        the University at Buffalo in 2001. He is currently an associate professor of English at Hofstra
+        who specializes in Restoration and eighteenth-century British literature. Dr. Sills has published
+        articles on the intersections and tensions between cartographic representation and eighteenth-
+        century British literature in <em>English Literary History</em>, <em>Journal of Narrative Theory</em>,
+        and <em>Literature Compass</em> and has a book forthcoming, <em>Against the Map: Cartography, Nation,
+        and the Politics of Geography in Britain, 1678–1814</em>. His current research involves digitally
+        mapping Daniel Defoe’s <em>A Journal of the Plague Year</em> and developing a digital application called
+        Itinerary, which will enable scholars to map works of literature. He is also a co-editor for the
+        online journal, <em>Digital Defoe: Studies in Defoe &amp; his Contemporaries</em>."
     - title: Reanimating New York City’s Nineteenth-Century Latinx Press through Geospatial Visualization
       image: gMY70SZ.jpg
       presenters:
@@ -95,6 +107,7 @@
         position: Professor of <a href="http://www.marquette.edu/languages-literatures-cultures/index.shtml">Spanish Language and Culture</a> at Marquette University (USA)
         bio: "Eugenia Afinoguénova’s recent book is <a href='https://www.psupress.org/books/titles/978-0-271-07857-1.html'><i>The Prado: Spanish Culture and Leisure, 1819–1939</i></a> (2018), for which she also designed an <a href='http://prado.nfshost.com'>augmented-reality reconstruction</a>. For her present project, Afinoguénova has teamed up with <a href='http://uwm.edu/libraries/agsl/'>American Geographical Society Library at University of Wisconsin-Milwaukee</a> to visualize interconnections between the times and spaces of travel narratives and the speed of travel itself."
     - title: "Coding the Scene: The Design and Development of a Markup Schema for Literary Landscape Analysis"
+      image: rcnUY1q.png
       presenters:
       - name: James O. Butler
         position: Named Research Associate, Chronotopic Cartographies for Literature at Lancaster University (UK)
@@ -107,11 +120,13 @@
     text: Kunčinas’s Vilnius
   papers:
     - title: "Mapping and Interpreting Fictional Vilnius: City Syntax and Semantics in the Prose of Gavelis, Kunčinas, and Ramonas"
+      image: wqxzt6y.png
       project-url: http://www.vilniusliterature.flf.vu.lt/en/
       project: Vilnius Literature
       presenters: 
       - name: Julija Snežko
         position: Assistant Professor of <a href="http://www.flf.vu.lt/en/structure/departments/department-of-russian-philology">Russian Filology</a> at Vilniaus universitetas (Lithuania)
+        bio: "Julija is an Assistant Professor at the department of <a href='http://www.flf.vu.lt/en/structure/departments/department-of-russian-philology'>Russian Philology</a> at Vilnius University, specializing in Russian Literature. Her dissertation considered Nikolaj Karamzin from the intersection of aesthetics and politics. She also studies the works of Jurgis Baltrušaitis, a Lithuanian-Russian poet and diplomat. She continues research in the cartographic and theoretical problems of mapping Vilnius literature."
       - name: Taisija Oral
         position: Independent Scholar (UAE)
     - title: Gendered Flânerie in American Expat Literature

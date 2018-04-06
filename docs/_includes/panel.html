@@ -17,6 +17,9 @@
 <div class="col-9">
 ##### “{{ paper.title }}”
 
+{% if paper.project-string %}
+<p class="small mb-1" style="margin-left: 2.5rem;">{{ paper.project-string }}</p>
+{% else %}
 {% if paper.project-url %}
 {% if paper.project %}
 {% assign project-text = paper.project %}
@@ -24,6 +27,7 @@
 {% assign project-text = paper.project-url %}
 {% endif %}
 <p class="small mb-1" style="margin-left: 2.5rem;">Project: <a href="{{ paper.project-url }}">{{ project-text }}</a></p>
+{% endif %}
 {% endif %}
 
 <ul class="small">

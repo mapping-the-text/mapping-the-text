@@ -14,7 +14,7 @@
           </ul>
           <ul>
             <li><a href="/conference/2018/schedule"><i class="fa fa-clock"></i> Schedule</a></li>
-            <li><a href="/conference/2018/registration"><i class="fa fa-sign-in-alt"></i> Conference registration</a></li>
+            <!-- <li><a href="/conference/2018/registration"><i class="fa fa-sign-in-alt"></i> Conference registration</a></li> -->
             <li><a href="/conference/2018/travel"><i class="fa fa-plane"></i>Travel information</a></li>
             <li><a href="https://calendar.google.com/calendar?cid=Y29uZmVyZW5jZUBtYXBwaW5nLXRoZS10ZXh0Lm9yZw"><i class="fa fa-calendar-alt"></i> Add to calendar</a> (<a href="https://calendar.google.com/calendar/ical/conference%40mapping-the-text.org/public/basic.ics">iCal</a>)</li>
             <li><a href="/conference/2018/team"><i class="fa fa-sitemap"></i> Organizers &amp; co-organizers</a></li>
@@ -47,7 +47,7 @@
         </div>
         <div class="col-md-7  order-1">
           {% if page.show-reg %}
-            {% include reg_form.html %}
+            {% include reg_form_ended.html %}
           {% endif %}
           {{ content }}
         </div>

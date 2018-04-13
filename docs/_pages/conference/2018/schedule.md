@@ -51,7 +51,10 @@ Library](http://library.nyu.edu/locations/elmer-holmes-bobst-library/), Room
 </div></div>
 <div class="row mb-3">
 <div class="col-12">
-#### 17:00: Plenary, [Professor Sally Bushell](http://www.lancaster.ac.uk/english-literature-and-creative-writing/about-us/staff/sally-bushell), Lancaster University (UK)
+<h4>17:00: “Mapping the Text in the 21<sup>st</sup> Century, or, Back to
+Bakhtin”<br><small>[Professor Sally
+Bushell](http://www.lancaster.ac.uk/english-literature-and-creative-writing/about-us/staff/sally-bushell),
+Lancaster University (UK)</small></h4>
 </div></div>
 <div class="row mb-3">
 <div class="col-3">

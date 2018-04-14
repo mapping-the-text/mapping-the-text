@@ -40,3 +40,5 @@ MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 Rate: $287/night _before_ tax ([make a
 reservation with our group rate](https://book.b4checkin.com/chameleon/washingtonsquarehotel/rlp/MappingtheText))
 
+<img src="https://i.imgur.com/picaxCJ.png" class="img-fluid">
+

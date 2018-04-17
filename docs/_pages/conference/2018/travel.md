@@ -16,6 +16,8 @@ map: true
 [70 Washington Square South](https://www.openstreetmap.org/way/248166208) <br />
 MTA <i class="fa fa-subway"></i>: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 
+<img src="https://i.imgur.com/GIms4Gw.png" class="img-fluid">
+
 ### [NYU Department of English <i class="fa fa-graduation-cap"></i>](http://as.nyu.edu/english.html)
 
 [244 Greene St.](https://www.openstreetmap.org/way/248166241) <br />
@@ -40,5 +42,4 @@ MTA: A/C/E/B/D/F/M to W. 4th, R/W to 8th/NYU, 6 to Astor Place
 Rate: $287/night _before_ tax ([make a
 reservation with our group rate](https://book.b4checkin.com/chameleon/washingtonsquarehotel/rlp/MappingtheText))
 
-<img src="https://i.imgur.com/GIms4Gw.png" class="img-fluid">
 

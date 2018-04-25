@@ -1,5 +1,11 @@
 // [img]https://i.imgur.com/elWuDjJ.png[/img]
 
+.brand-img {
+  margin-top: -.7rem;
+  height: 2rem;
+  width: 2rem;
+}
+
 .navbar {
   background-color: $base3;
   background-image: url("https://i.imgur.com/elWuDjJ.png");
@@ -8,10 +14,11 @@
   
 
 .navbar-light {
+
   .navbar-brand {
+    font-size: 2rem;
     color: $violet;
     font-weight: normal;
-
   }
 
   .navbar-brand:focus, .navbar-brand:hover {
@@ -20,6 +27,7 @@
 
   .navbar-nav {
     .nav-link {
+      font-size: 1.5rem;
       font-weight: normal;
       color: rgba($base01, 0.5);
     }

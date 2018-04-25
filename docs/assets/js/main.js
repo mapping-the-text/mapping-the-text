@@ -83,3 +83,12 @@ if($(".fixed-top").length){
   $("#content").css("margin-top",  $("#navbar").height() + $(".fixed-top").data("margin") + "px");
 }
 
+$(".profile").each(function() {
+  const ghUser = $( this ).attr("id").replace(/^github-/, "");
+  $.getJSON("http://api.github.com/users/" + ghUser, (data) => {
+    console.log(data);
+    $("#" + ghUser + "-avatar").attr("src", data.avatar_url);
+  }, 
+    () => { alert("Could not get GitHub user data for " + ghUser + "!"); }
+           );
+});

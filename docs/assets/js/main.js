@@ -85,7 +85,7 @@ if($(".fixed-top").length){
 
 $(".profile").each(function() {
   const ghUser = $( this ).attr("id").replace(/^github-/, "");
-  $.getJSON("http://api.github.com/users/" + ghUser, (data) => {
+  $.getJSON("https://api.github.com/users/" + ghUser, (data) => {
     console.log(data);
     $("#" + ghUser + "-avatar").attr("src", data.avatar_url);
   }, 

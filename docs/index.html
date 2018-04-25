@@ -17,3 +17,11 @@ description: Humanities scholars tracing spatiotemporalities.
     </div>
   </div>
 </div>
+{% include modals/construction.html %}
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    if ( $(".modal").length > 0 ){
+      $(".modal").modal("show");
+  }
+  });
+</script>

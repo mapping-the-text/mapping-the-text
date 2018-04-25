@@ -186,19 +186,19 @@ h4 {
   background-color: $base3;
 }
 
+.btn-primary {
+  color: $base3;
+  background-color: $violet;
+  border-color: $cyan;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  color: $base3;
+  background-color: $cyan;
+  border-color: $green;
+}
+
 form {
-  .btn-primary {
-    color: $base3;
-    background-color: $violet;
-    border-color: $cyan;
-  }
-
-  .btn-primary:hover, .btn-primary:focus {
-    color: $base3;
-    background-color: $cyan;
-    border-color: $green;
-  }
-
   .input-group-text {
     border-color: $base1;
     background-color: $base3;
@@ -215,4 +215,5 @@ form {
 @import "code";
 @import "aside";
 @import "leaflet";
+@import "modal";
 

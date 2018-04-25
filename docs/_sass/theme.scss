@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: Didot, "EB Garamond", "Times New Roman", serif;
+  font-family: "EB Garamond", "Times New Roman", serif;
   color: $base00;
   background-color: $base3;
   background-image: url("https://i.imgur.com/wfEXfGM.png");
@@ -168,7 +168,7 @@ blockquote {
 }
 
 h4 {
-  color: $magenta;
+  // color: $magenta;
   font-size: 1.25rem;
 }
 

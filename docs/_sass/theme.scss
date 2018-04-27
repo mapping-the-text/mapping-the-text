@@ -3,22 +3,24 @@
 @import "fonts";
 @import "solarized-dark";
 
+$textopacity: 0.75;
+
 // Solarized light:
 
-$base00:   #657b83; // primary content
-$base01:   #586e75; // emphasized content
-$base1:    #93a1a1; // comments / secondary content
-$base3:    #fdf6e3; // background
-$base2:    #eee8d5; // secondary background
-// orange    #cb4b16  constants
+$base00:   rgba(101, 123, 131, $textopacity); // #657b83; // primary content
+$base01:   rgba(88, 110, 117, $textopacity); // 586e75; // emphasized content
+$base1:    rgba(147, 161, 161, $textopacity); // 93a1a1; // comments / secondary content
+$base3:    rgba(253, 246, 227, $textopacity); // fdf6e3; // background
+$base2:    rgba(238, 232, 213, $textopacity); // eee8d5; // secondary background
+// orange    #cb4b16,  constants
 // red       #dc322f  regex, special keywords
-// blue      #268bd2  reserved keywords
-// cyan      #2aa198  strings, numbers
-// green     #859900  operators, other keywords
+// blue      #268bd2,  reserved keywords
+// cyan      #2aa198,  strings, numbers
+// green     #859900,  operators, other keywords
 
-$magenta:  #d33682;
-$violet:   #6c71c4;
-$yellow:   #b58900;
+$magenta:  rgba(211,  54, 130, $textopacity); // #d33682;
+$violet:   rgba(108, 113, 196, $textopacity); // #6c71c4;
+$yellow:   rgba(181, 137,   0, $textopacity); // #b58900;
 
 html {
   position: relative;
@@ -47,8 +49,8 @@ code {
 }
 
 a {
-  color: $magenta;
-  font-weight: bold;
+  color: $violet;
+  font-style: italic;
 }
 
 a:focus, a:hover {
@@ -72,7 +74,7 @@ h4, h5, h6, .lead, p > em {
 
 .lead:first-letter {
   font-family: Didot, "EB Garamond", "Times New Roman", serif;
-  color: $yellow;
+  color: $violet;
   float: left;
   font-size: 5rem;
   line-height: 3.5rem;
@@ -80,7 +82,7 @@ h4, h5, h6, .lead, p > em {
 }
 
 h1 {
-  font-family: Didot, "EB Garamond", "Times New Roman", serif;
+  font-family: "Tangerine", "Zapf Chancery", cursive, sans-serif;
   color: $violet;
   font-size: 2.5rem;
 }
@@ -97,12 +99,10 @@ h1 {
   }
 }
 
-h2, h3 {
-  color: $yellow;
-}
 
 h2, h3, h4, h5, h6 {
-  font-family: Didot, "EB Garamond", "Times New Roman", serif;
+  font-family: "Tangerine", "Zapf Chancery", cursive, sans-serif;
+  color: $base01;
 }
 
 p > strong, section > ol > li > strong {
@@ -168,7 +168,6 @@ blockquote {
 }
 
 h4 {
-  // color: $magenta;
   font-size: 1.25rem;
 }
 

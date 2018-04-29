@@ -79,3 +79,6 @@ $(".github-img").each(function() {
     () => { console.log("Couldn't get a github avatar for ", ghUser); }
            );
 });
+
+// Make the first paragraph a lead.
+$("article p").first().addClass("lead");

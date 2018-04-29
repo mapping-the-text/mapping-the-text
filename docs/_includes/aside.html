@@ -14,16 +14,8 @@
 {% assign sources = page.sources | split: " " %}
 {% for arraysource in sources %}
 {% assign source = site.sources | where: "slug", arraysource | first %}
-{% if source.isbn %}
-<li class="source-list" data-isbn="{{ source.isbn }}">{{ source.slug }}</li>
-{% elsif source.doi %}
-<li class="source-list" data-doi="{{ source.doi }}">{{ source.slug }}</li>
-{% else %}
-<li class="source-list" data-source='{{ source.source | jsonify }}'>{{ source.slug }}</li>
-{% endif %}
+<li class="source-list" data-zoterokey="{{ source.zoteroKey }}">{{ source.slug }}</li>
 {% endfor %}
 </ul>
 {% endif %}
-
-How to cite this page:
 

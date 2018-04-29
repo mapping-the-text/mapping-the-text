@@ -1,0 +1,9 @@
+<h3>Page Authors:</h3>
+{% assign authors = page.authors | split: " " %}
+<ul id="authorsList">
+{% for arrayauthor in authors %}
+{% assign author = site.members | where: "slug", arrayauthor | first %}
+<li><a href="{{ site.baseurl }}/members/{{ author.slug }}">{{ author.name }}</a></li>
+{% endfor %}
+</ul>
+

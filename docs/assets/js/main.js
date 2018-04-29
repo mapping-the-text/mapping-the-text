@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $(".source-article").each(function(){
     const zoterokey = $( this ).data("zoterokey");
-    $.getJSON("https://api.zotero.org/groups/2178810/items/" + zoterokey, (data) => {
+    $.getJSON("https://api.zotero.org/groups/2178810/items/" + zoterokey + "?include=bib,data", (data) => {
         $(".source-title").each(function(){
           let title;
           if(data.data.itemType === "journalArticle") {
@@ -19,6 +19,12 @@ $(document).ready(function() {
             }).map((el) => {
               return el.firstName + " " + el.lastName;
             }).join(", ");
+          });
+        });
+        $(".source-citation").each(function(){
+          $( this ).html("Citation: " + data.bib);
+          $(".csl-bib-body").each(function(){
+            $( this ).attr("style", "");
           });
         });
         if(data.data.itemType === "book"){

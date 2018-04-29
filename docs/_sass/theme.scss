@@ -225,6 +225,14 @@ form {
   border: 1px solid $base1;
 }
 
+.badge-secondary {
+  font-style: normal;
+  font-size: 80%;
+  color: $base01;
+  background-color: $base2;
+  border: 1px solid $violet ;
+}
+
 @import "index";
 @import "navbar";
 @import "code";

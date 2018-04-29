@@ -1,4 +1,15 @@
-.source-authors {
+.source-authors, .source-citation {
   font-family: $bodyfont;
+}
+
+h2.source-authors {
   font-size: 2.5rem;
+}
+
+h3.source-citation {
+  font-size: 1.5rem;
+}
+
+#source-img {
+  border: 1px solid $base1;
 }

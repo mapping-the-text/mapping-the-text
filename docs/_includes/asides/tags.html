@@ -1,0 +1,7 @@
+{% if page.tags %}
+<h3>Tags:</h3>
+{% for tag in page.tags %}
+  {% capture tag_name %}{{ tag }}{% endcapture %}
+  <a href="{{ site.baseurl }}/tags/{{ tag_name }}"><span class="badge badge-secondary">{{ tag_name }}</span></a>&nbsp;
+{% endfor %}
+{% endif %}

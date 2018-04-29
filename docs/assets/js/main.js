@@ -108,7 +108,7 @@ $("article p").first().addClass("lead");
 
 // filter by tags.
 $(document).ready(function(){
-  $("#tagPool > a > #resetTags").click(() => {
+  $("#resetTags").click(() => {
     console.log("Reset clicked");
     $(".source").each(function(){
       $( this ).attr("style", "display: list-item;").addClass("legit-source");

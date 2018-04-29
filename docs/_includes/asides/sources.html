@@ -4,7 +4,7 @@
 {% assign sources = page.sources | split: " " %}
 {% for arraysource in sources %}
 {% assign source = site.sources | where: "slug", arraysource | first %}
-<div class="source-list" data-zoterokey="{{ source.zoteroKey }}">{{ source.slug }}</div>
+<div class="source-list" data-zoterokey="{{ source.zoterokey }}">{{ source.slug }}</div>
 {% endfor %}
 </div>
 {% endif %}

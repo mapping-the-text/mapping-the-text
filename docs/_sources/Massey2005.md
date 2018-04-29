@@ -1,5 +1,5 @@
 ---
 authors: muziejus
-zoteroKey: 6BCGP9H7
+zoterokey: 6BCGP9H7
 tags: space de-certeau spacetime
 ---

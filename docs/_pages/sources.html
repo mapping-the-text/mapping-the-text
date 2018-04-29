@@ -1,0 +1,12 @@
+---
+permalink: /sources/
+layout: default
+---
+
+<h1>Mapping the Text Annotated Bibliography</h1>
+
+<ul>
+{% for source in site.sources %}
+<li><a class="source-citation" href="{{ site.baseurl }}/sources/{{ source.slug }}" data-zoterokey="{{ source.zoterokey }}">{{ source.slug }}</a></li>
+{% endfor %}
+</ul>

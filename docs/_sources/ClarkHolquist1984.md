@@ -1,6 +1,6 @@
 ---
 authors: muziejus
-zoteroKey: RWZDE5B8
+zoterokey: RWZDE5B8
 tags: bakhtin chronotope novel spacetime
 ---
 

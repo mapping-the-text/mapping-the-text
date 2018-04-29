@@ -229,7 +229,7 @@ form {
   background-color: $base3;
   background-image: url("https://i.imgur.com/elWuDjJ.png");
 
-  .clicked-badge {
+  .clicked-badge, #resetTags {
     color: $base3;
     background-color: $violet;
     border: 1px solid $green;

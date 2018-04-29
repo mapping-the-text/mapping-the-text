@@ -1,6 +1,7 @@
 ---
 permalink: /about
 author: muziejus
+sources: ClarkHolquist1984 Perenic2012
 ---
 
 # About

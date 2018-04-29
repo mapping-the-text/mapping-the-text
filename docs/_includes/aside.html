@@ -1,12 +1,22 @@
-<h3>Contents</h3>
+<h3>Contents:</h3>
 
 <ul id="tocList">
 </ul>
 
-<p>By <a href="{{ site.baseurl }}/members/{{ page.author }}">{{ site.data.members[page.author].name }}</a></p>
+{% assign author = site.members | where: "slug", page.author | first %}
+<p>By <a href="{{ site.baseurl }}/members/{{ page.author }}">{{ author.name }}</a></p>
 
-This page was last modified on: <span id="last-modified"></span>.
+<p>This page was last modified on: <span id="last-modified"></span>.</p>
+
+{% if page.sources %}
+<h3>Sources:</h3>
+<ul id="sourceList">
+{% assign sources = page.sources | split: " " %}
+{% for source in sources %}
+<li data-source="{{ source }}">{{ source }}</li>
+{% endfor %}
+</ul>
+{% endif %}
 
 How to cite this page:
 
-[View this page on GitHub]

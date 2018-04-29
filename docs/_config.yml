@@ -47,7 +47,16 @@ plugins:
 collections:
   members:
     output: true
-    layout: member
   sources:
     output: true
+defaults:
+- scope:
+    path: ""
+    type: members
+  values:
+    layout: member
+- scope:
+    path: ""
+    type: sources
+  values:
     layout: source

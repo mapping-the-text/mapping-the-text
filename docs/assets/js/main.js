@@ -80,6 +80,9 @@ $(document).ready(function() {
     $("article > h2").each(function(){
       contents += "<div class='nav-item'><a class='nav-link' href='#" + $( this ).attr("id") + "'>" + $( this ).text() + "</a></div>\n";
     });
+    if(contents.length > 0){
+      $("#tocDiv").attr("style", "display: block;");
+    }
     return contents;
   });
 }); 

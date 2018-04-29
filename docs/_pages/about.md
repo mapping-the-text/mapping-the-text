@@ -1,4 +1,5 @@
 ---
+layout: page
 permalink: /about
 authors: muziejus
 sources: ClarkHolquist1984 Perenic2012

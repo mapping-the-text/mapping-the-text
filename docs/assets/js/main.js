@@ -1,10 +1,16 @@
-// Get book image
+// Get source information
 $(document).ready(function() {
   $(".source-article").each(function(){
     const zoterokey = $( this ).data("zoterokey");
     $.getJSON("https://api.zotero.org/groups/2178810/items/" + zoterokey, (data) => {
         $(".source-title").each(function(){
-          $( this ).html(data.data.title);
+          let title;
+          if(data.data.itemType === "journalArticle") {
+            title = "“" + data.data.title + "”";
+          } else {
+            title = data.data.title;
+          }
+          $( this ).html(title);
         });
         $(".source-authors").each(function(){
           $( this ).html(() => {
@@ -82,3 +88,22 @@ $(".github-img").each(function() {
 
 // Make the first paragraph a lead.
 $("article p").first().addClass("lead");
+
+// Feed in last modified.
+function fetchHeader(url, wch) {
+  try {
+    var req=new XMLHttpRequest();
+    req.open("HEAD", url, false);
+    req.send(null);
+    if(req.status === 200){
+      return req.getResponseHeader(wch);
+    }
+    else { return "Failed to get 200 status"; }
+  } catch(er) {
+    return "Failed to get date."
+  }
+}
+
+const lastMod = fetchHeader(location.href, "Last-Modified");
+$("#last-modified").html(lastMod.replace(/ \S+ \S+$/, ""));
+

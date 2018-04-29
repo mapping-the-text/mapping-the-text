@@ -2,7 +2,8 @@
 $(document).ready(function() {
   $(".source-article").each(function(){
     const zoterokey = $( this ).data("zoterokey");
-    $.getJSON("https://api.zotero.org/groups/2178810/items/" + zoterokey + "?include=bib,data", (data) => {
+    $.getJSON("https://api.zotero.org/groups/2178810/items/" + zoterokey + "?include=bib,citation,data", (data) => {
+        document.title = data.citation.replace(/<\/*span>/g, "").replace(/<\/*i>/g, "_") + " | Mapping the Text";
         $(".source-title").each(function(){
           let title;
           if(data.data.itemType === "journalArticle") {
@@ -30,7 +31,7 @@ $(document).ready(function() {
         if(data.data.itemType === "book"){
           const isbn = data.data.ISBN.replace(/-/g, "");
           $.getJSON("https://www.googleapis.com/books/v1/volumes?q=isbn:" + isbn, (data) => {
-              $("#source-img").attr("src", data.items[0].volumeInfo.imageLinks.thumbnail);
+              $("#source-img").attr("src", data.items[0].volumeInfo.imageLinks.thumbnail).attr("style", "display: block;");
             }, 
             () => { console.log("Could not get book image from Google books"); }
           );

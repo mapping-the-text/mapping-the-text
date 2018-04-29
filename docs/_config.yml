@@ -33,10 +33,6 @@ kramdown:
   input: GFM
   parse_block_html: true
 include: ["_pages"]
-# theme: minima
-gems:
-  - jekyll-redirect-from
-#   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -3,7 +3,7 @@
 @import "fonts";
 @import "solarized-dark";
 
-$textopacity: 0.75;
+$textopacity: 0.85;
 
 // Solarized light:
 
@@ -53,6 +53,10 @@ a {
   font-style: italic;
 }
 
+a.footnote {
+  font-style: normal;
+}
+
 a:focus, a:hover {
   color: $cyan;
 }
@@ -84,7 +88,7 @@ h4, h5, h6, .lead, p > em {
 h1 {
   font-family: "Tangerine", "Zapf Chancery", cursive, sans-serif;
   color: $violet;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .hash {
@@ -95,7 +99,15 @@ h1 {
 
 @media (min-width: 576px){
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
   }
 }
 

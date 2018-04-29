@@ -1,7 +1,7 @@
 <h3>Contents:</h3>
 
-<ul class="nav flex-column" id="tocList">
-</ul>
+<div class="nav flex-column" id="tocList">
+</div>
 
 {% assign author = site.members | where: "slug", page.author | first %}
 <p>By <a href="{{ site.baseurl }}/members/{{ page.author }}">{{ author.name }}</a></p>
@@ -10,12 +10,12 @@
 
 {% if page.sources %}
 <h3>Sources:</h3>
-<ul id="sourceList">
+<div id="sourceList">
 {% assign sources = page.sources | split: " " %}
 {% for arraysource in sources %}
 {% assign source = site.sources | where: "slug", arraysource | first %}
-<li class="source-list" data-zoterokey="{{ source.zoteroKey }}">{{ source.slug }}</li>
+<div class="source-list" data-zoterokey="{{ source.zoteroKey }}">{{ source.slug }}</div>
 {% endfor %}
-</ul>
+</div>
 {% endif %}
 

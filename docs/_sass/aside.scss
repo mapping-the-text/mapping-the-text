@@ -1,5 +1,26 @@
 aside {
 
+  #tocList {
+    .nav-item .nav-link {
+      font-size: 1.25rem;
+      font-style: normal;
+      padding: 0px;
+      padding-left: 2rem;
+    }
+
+    padding-bottom: 1rem;
+  }
+
+  .source-list {
+    padding-left: 2rem;
+    text-indent: -2rem;
+
+    a, a:hover {
+      font-style: normal;
+    }
+  }
+
+
   ul {
 
     li {

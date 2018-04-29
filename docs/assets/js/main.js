@@ -28,7 +28,7 @@ $(document).ready(function() {
   $("#tocList").append(function(){
     let contents =  ""
     $("article > h2").each(function(){
-      contents += "<li class='nav-item'><a class='nav-link' href='#" + $( this ).attr("id") + "'>" + $( this ).text() + "</a></li>\n";
+      contents += "<div class='nav-item'><a class='nav-link' href='#" + $( this ).attr("id") + "'>" + $( this ).text() + "</a></div>\n";
     });
     return contents;
   });

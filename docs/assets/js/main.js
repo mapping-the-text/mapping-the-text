@@ -1,3 +1,33 @@
+// Get book image
+$(document).ready(function() {
+  $(".source-article").each(function(){
+    const zoterokey = $( this ).data("zoterokey");
+    $.getJSON("https://api.zotero.org/groups/2178810/items/" + zoterokey, (data) => {
+        $(".source-title").each(function(){
+          $( this ).html(data.data.title);
+        });
+        $(".source-authors").each(function(){
+          $( this ).html(() => {
+            return data.data.creators.filter((el) => {
+              return el.creatorType === "author";
+            }).map((el) => {
+              return el.firstName + " " + el.lastName;
+            }).join(", ");
+          });
+        });
+        if(data.data.itemType === "book"){
+          const isbn = data.data.ISBN.replace(/-/g, "");
+          $.getJSON("https://www.googleapis.com/books/v1/volumes?q=isbn:" + isbn, (data) => {
+              $("#source-img").attr("src", data.items[0].volumeInfo.imageLinks.thumbnail);
+            }, 
+            () => { console.log("Could not get book image from Google books"); }
+          );
+        }
+      },
+      () => { console.log("Could not load Zotero item"); }
+    );
+  });
+});
 // flesh out source list
 $(document).ready(function() {
   if ($("#sourceList").length > 0){
@@ -13,7 +43,7 @@ $(document).ready(function() {
           $( this ).attr("style", "");
         });
       },
-      () => { console.log("<li>Could not load Zotero library</li>"); }
+      () => { console.log("Could not load Zotero library"); }
     );
   }
 });

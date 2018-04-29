@@ -3,9 +3,9 @@
 {% include navbar.html %}
   <div id="main" class="wrapper container">
     <div class="row">
-      <article id="content" class="col-md-8" data-zoterokey="{{ page.zoteroKey }}">
-      <h1 id="source-title">{{ page.slug }}</h1>
-      <h2 id="source-author"></h2>
+      <article id="content" class="source-article col-md-8" data-zoterokey="{{ page.zoteroKey }}">
+      <h1 class="source-title">{{ page.slug }}</h1>
+      <h2 class="source-authors"></h2>
       {{ content }}
       </article>
       <aside class="col-md-4">

@@ -44,3 +44,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+collections:
+  members:
+    output: true
+    layout: member
+  sources:
+    output: true
+    layout: source

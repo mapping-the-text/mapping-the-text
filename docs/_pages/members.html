@@ -1,10 +1,12 @@
 ---
-permalink: /members
+permalink: /members/
 layout: default
 ---
 
 <h1>Members</h1>
 
-{% for member in site.data.members %}
+<ul>
+{% for member in site.members %}
 {% include members/profile.html %}
 {% endfor %}
+</ul>

@@ -1,6 +1,10 @@
 /* The main Sass page */
 
 @import "fonts";
+
+$bodyfont: "EB Garamond", "Times New Roman", serif;
+$titlefont: "Parisienne", "Zapf Chancery", cursive, sans-serif;
+
 @import "solarized-dark";
 
 $textopacity: 0.85;
@@ -29,7 +33,7 @@ html {
 }
 
 body {
-  font-family: "EB Garamond", "Times New Roman", serif;
+  font-family: $bodyfont;
   color: $base00;
   background-color: $base3;
   background-image: url("https://i.imgur.com/wfEXfGM.png");
@@ -77,7 +81,7 @@ h4, h5, h6, .lead, p > em {
 }
 
 .lead:first-letter {
-  font-family: Didot, "EB Garamond", "Times New Roman", serif;
+  font-family: Didot, $bodyfont;
   color: $violet;
   float: left;
   font-size: 5rem;
@@ -86,7 +90,7 @@ h4, h5, h6, .lead, p > em {
 }
 
 h1 {
-  font-family: "Parisienne", "Zapf Chancery", cursive, sans-serif;
+  font-family: $titlefont;
   color: $violet;
   font-size: 3rem;
 }
@@ -113,7 +117,7 @@ h1 {
 
 
 h2, h3, h4, h5, h6 {
-  font-family: "Parisienne", "Zapf Chancery", cursive, sans-serif;
+  font-family: $titlefont;
   color: $base01;
 }
 
@@ -227,4 +231,4 @@ form {
 @import "aside";
 @import "leaflet";
 @import "modal";
-
+@import "source";

@@ -80,7 +80,7 @@ $("#submission").submit(function(event){
 });
 
 if($(".fixed-top").length){
-  $("#content").css("margin-top",  $("#navbar").height() + $(".fixed-top").data("margin") + "px");
+  $("#main").css("margin-top",  $("#navbar").height() + $(".fixed-top").data("margin") + "px");
 }
 
 $(".profile").each(function() {

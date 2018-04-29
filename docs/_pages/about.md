@@ -83,7 +83,7 @@ that fall more in like with “traditional” modes of scholarly communication,
 but for now, this website and the labor given to it by its members, will
 suffice.
 
-## Space in Literature and Literature in Space
+## Space in Literature & Literature in Space
 
 At our (inaugural?) conference, Eugenia Afinoguénova noted being in the
 presence of fellow chronotopians, and Bakhtin and the chronotope are guiding
@@ -107,7 +107,7 @@ really offer a counter term. One way of getting past the mouthful of “Space in
 Literature and Literature in Space,” we believe, is by talking about “mapping
 the text.” 
 
-## Organization, membership, etc.
+## Organization, Membership, etc.
 
 What else to say? The above is a sort of manifesto, or a set of guiding
 principles, or, ahem, a map for Mapping the Text. The rest is informal and

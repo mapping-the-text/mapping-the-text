@@ -114,27 +114,30 @@ $(document).ready(function(){
       $( this ).removeClass("clicked-badge");
     });
   });
-  $("#tagPool > a > .badge-tag").click(function(){
-    $(".source").each(function(){
-      $( this ).removeClass("filtered-source");
-    });
-    $( this ).toggleClass("clicked-badge");
-    const selectedTags = $("#tagPool > a > .clicked-badge").map(function(){
-      return $( this ).data("tag");
-    });
-    $(".source").filter(function(){
-      for(let i = 0 , len = selectedTags.length; i < len; i = i + 1){
-        if($( this ).data("tags").split(" ").includes(selectedTags[i]) === false) return false;
-      }
-      return true;
-    }).addClass("filtered-source");
-    $(".source").each(function(){
-      if(!$( this ).hasClass("filtered-source")){
-        $( this ).removeClass("legit-source").attr("style", "display: none;");
-      }
-    });
-  });
+  $("#tagPool > a > .badge-tag").click(filterSources);
 });
+
+function filterSources(){
+  $(".source").each(function(){
+    $( this ).removeClass("filtered-source").attr("style", "display: list-item");
+  });
+  $( this ).toggleClass("clicked-badge");
+  // button.toggleClass("clicked-badge");
+  const selectedTags = $("#tagPool > a > .clicked-badge").map(function(){
+    return $( this ).data("tag");
+  });
+  $(".source").filter(function(){
+    for(let i = 0 , len = selectedTags.length; i < len; i = i + 1){
+      if($( this ).data("tags").split(" ").includes(selectedTags[i]) === false) return false;
+    }
+    return true;
+  }).addClass("filtered-source");
+  $(".source").each(function(){
+    if(!$( this ).hasClass("filtered-source")){
+      $( this ).removeClass("legit-source").attr("style", "display: none;");
+    }
+  });
+}
 
 // Feed in last modified.
 function fetchHeader(url, wch) {

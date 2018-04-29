@@ -12,8 +12,15 @@
 <h3>Sources:</h3>
 <ul id="sourceList">
 {% assign sources = page.sources | split: " " %}
-{% for source in sources %}
-<li data-source="{{ source }}">{{ source }}</li>
+{% for arraysource in sources %}
+{% assign source = site.sources | where: "slug", arraysource | first %}
+{% if source.isbn %}
+<li class="source-list" data-isbn="{{ source.isbn }}">{{ source.slug }}</li>
+{% elsif source.doi %}
+<li class="source-list" data-doi="{{ source.doi }}">{{ source.slug }}</li>
+{% else %}
+<li class="source-list" data-source='{{ source.source | jsonify }}'>{{ source.slug }}</li>
+{% endif %}
 {% endfor %}
 </ul>
 {% endif %}

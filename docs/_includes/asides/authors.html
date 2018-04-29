@@ -1,3 +1,4 @@
+{% if page.authors %}
 <h3>Page Authors:</h3>
 {% assign authors = page.authors | split: " " %}
 <ul id="authorsList">
@@ -6,4 +7,5 @@
 <li><a href="{{ site.baseurl }}/members/{{ author.slug }}">{{ author.name }}</a></li>
 {% endfor %}
 </ul>
+{% endif %}
 

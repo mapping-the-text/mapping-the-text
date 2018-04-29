@@ -36,7 +36,7 @@ environment.
 Mapping the Text joins that list of often digitally mediated research
 collectives, among whose aims are encouraging felicitous collisions that lead
 to future collaboration. Of course, little to no scholarship is done without
-collaboration, though it often [skirts by insuffiently recognized because of
+collaboration, though it often [skirts by insufficiently recognized because of
 hierarchies and other inequalities](https://www.npr.org/2017/03/30/521931310/-thanksfortyping-spotlights-unnamed-women-in-literary-acknowledgements).
 Digital projects typically rely on a team of people who straddle several fields of
 expertise, and even an old-fashioned separation of labor into “intellectual”
@@ -85,7 +85,7 @@ suffice.
 ## Space in Literature and Literature in Space
 
 At our (inaugural?) conference, Eugenia Afinoguénova noted being in the
-presence of fellow chronotopians, and Bakthin and the chronotope are guiding
+presence of fellow chronotopians, and Bakhtin and the chronotope are guiding
 lights. As Katerina Clark and Michael Holquist note, for Bakhtin, the
 chronotope is how people at different times and different places interact with
 reality. It is a localized space/time (in contrast to Kant’s universal

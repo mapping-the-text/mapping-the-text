@@ -18,8 +18,8 @@ $(document).ready(function() {
   }
 });
 
+// Add icon for external links & flesh out ToC
 $(document).ready(function() {
-  // Add icon for external links.
   let externalLink = $.parseHTML("<span>&nbsp;<i style='vertical-align: baseline; font-size: 60%;' class='fa fa-small fa-external-link-alt'></i></span>");
   $("a[href^='http']:not(a:has(img))").append(externalLink);
   $("a[href^='http']").attr("target", "_blank");
@@ -32,19 +32,20 @@ $(document).ready(function() {
     });
     return contents;
   });
-
 }); 
 
 
+// Bump down content
 if($(".fixed-top").length){
   $("#main").css("margin-top",  $("#navbar").height() + $(".fixed-top").data("margin") + "px");
 }
 
-$(".profile").each(function() {
-  const ghUser = $( this ).attr("id").replace(/^github-/, "");
+// Feed in GitHub avatar.
+$(".github-img").each(function() {
+  const ghUser = $( this ).data("githubuser");
   $.getJSON("https://api.github.com/users/" + ghUser, (data) => {
-    $("#" + ghUser + "-avatar").attr("src", data.avatar_url);
+    $( this ).attr("src", data.avatar_url);
   }, 
-    () => { alert("Could not get GitHub user data for " + ghUser + "!"); }
+    () => { console.log("Couldn't get a github avatar for ", ghUser); }
            );
 });

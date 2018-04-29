@@ -3,10 +3,22 @@ permalink: /sources/
 layout: default
 ---
 
-<h1>Mapping the Text Annotated Bibliography</h1>
+{% include tag_collector.html %}
 
-<ul>
+<h1>Annotated Bibliography</h1>
+
+<h3>Filter by Tags:</h3>
+<div class="mb-3 p-2 rounded" id="tagPool">
+{% for tag in alltags %}
+  {% capture tag_name %}{{ tag }}{% endcapture %}
+  <a href="#"><span class="badge-tag badge badge-secondary" data-tag="{{tag_name}}">{{ tag_name }}</span></a>&nbsp;
+{% endfor %}
+  <a href="#"><span class="badge badge-secondary" id="resetTags">Reset all tags</span></a>
+</div>
+
+
+<ul id="sourceList">
 {% for source in site.sources %}
-<li><a class="source-citation" href="{{ site.baseurl }}/sources/{{ source.slug }}" data-zoterokey="{{ source.zoterokey }}">{{ source.slug }}</a></li>
+<li class="source legit-source" data-tags="{{ source.tags | join: " " }}"><a href="{{ site.baseurl }}/sources/{{ source.slug }}" data-zoterokey="{{ source.zoterokey }}">{{ source.slug }}</a></li>
 {% endfor %}
 </ul>

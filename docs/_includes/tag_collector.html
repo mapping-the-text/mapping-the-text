@@ -1,0 +1,18 @@
+{% assign rawtags = "" %}
+{% for source in site.sources %}
+  {% assign ttags = source.tags | join: "|" | append: "|" %}
+  {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign alltags = "" %}
+{% for tag in rawtags %}
+  {% if tag != "" %}
+    {% if alltags == "" %}
+      {% assign alltags = tag | split:'|' %}
+    {% endif %}
+    {% unless alltags contains tag %}
+      {% assign alltags = alltags | join:'|' | append:'|' | append:tag | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}

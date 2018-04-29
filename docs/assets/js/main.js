@@ -43,8 +43,15 @@ $(document).ready(function() {
 });
 // flesh out source list
 $(document).ready(function() {
-  if ($("#sourceList").length > 0){
-    $.getJSON("https://api.zotero.org/groups/2178810/items?include=bib", (data) => {
+  if ($(".source-list").length > 0 || $(".source-citation").length > 0){
+    $.getJSON("https://api.zotero.org/groups/2178810/items?include=bib,citation", (data) => {
+        $(".source-citation").each(function(){
+          $( this ).html(() => {
+            return data.filter((el) => {
+              return el.key === $( this ).data("zoterokey");
+            })[0].citation;
+          });
+        });
         $(".source-list").each(function(){
           $( this ).html( (_, old) => {
               return data.filter((el) => {
@@ -95,6 +102,39 @@ $(".github-img").each(function() {
 
 // Make the first paragraph a lead.
 $("article p").first().addClass("lead");
+
+// filter by tags.
+$(document).ready(function(){
+  $("#tagPool > a > #resetTags").click(() => {
+    console.log("Reset clicked");
+    $(".source").each(function(){
+      $( this ).attr("style", "display: list-item;").addClass("legit-source");
+    });
+    $("#tagPool > a > .badge-tag").each(function(){
+      $( this ).removeClass("clicked-badge");
+    });
+  });
+  $("#tagPool > a > .badge-tag").click(function(){
+    $(".source").each(function(){
+      $( this ).removeClass("filtered-source");
+    });
+    $( this ).toggleClass("clicked-badge");
+    const selectedTags = $("#tagPool > a > .clicked-badge").map(function(){
+      return $( this ).data("tag");
+    });
+    $(".source").filter(function(){
+      for(let i = 0 , len = selectedTags.length; i < len; i = i + 1){
+        if($( this ).data("tags").split(" ").includes(selectedTags[i]) === false) return false;
+      }
+      return true;
+    }).addClass("filtered-source");
+    $(".source").each(function(){
+      if(!$( this ).hasClass("filtered-source")){
+        $( this ).removeClass("legit-source").attr("style", "display: none;");
+      }
+    });
+  });
+});
 
 // Feed in last modified.
 function fetchHeader(url, wch) {

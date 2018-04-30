@@ -1,10 +1,10 @@
-// Get source information
+// Get resource information
 $(document).ready(function() {
-  $(".source-article").each(function(){
+  $(".resource-article").each(function(){
     const zoterokey = $( this ).data("zoterokey");
     $.getJSON("https://api.zotero.org/groups/2178810/items/" + zoterokey + "?include=bib,citation,data", (data) => {
         document.title = data.citation.replace(/<\/*span>/g, "").replace(/<\/*i>/g, "_") + " | Mapping the Text";
-        $(".source-title").each(function(){
+        $(".resource-title").each(function(){
           let title;
           if(data.data.itemType === "journalArticle") {
             title = "“" + data.data.title + "”";
@@ -13,7 +13,7 @@ $(document).ready(function() {
           }
           $( this ).html(title);
         });
-        $(".source-authors").each(function(){
+        $(".resource-authors").each(function(){
           $( this ).html(() => {
             return data.data.creators.filter((el) => {
               return el.creatorType === "author";
@@ -22,7 +22,7 @@ $(document).ready(function() {
             }).join(", ");
           });
         });
-        $(".source-citation").each(function(){
+        $(".resource-citation").each(function(){
           $( this ).html("Citation: " + data.bib);
           $(".csl-bib-body").each(function(){
             $( this ).attr("style", "");
@@ -31,7 +31,7 @@ $(document).ready(function() {
         if(data.data.itemType === "book"){
           const isbn = data.data.ISBN.replace(/-/g, "");
           $.getJSON("https://www.googleapis.com/books/v1/volumes?q=isbn:" + isbn, (data) => {
-              $("#source-img").attr("src", data.items[0].volumeInfo.imageLinks.thumbnail).attr("style", "display: block;");
+              $("#resource-img").attr("src", data.items[0].volumeInfo.imageLinks.thumbnail).attr("style", "display: block;");
             }, 
             () => { console.log("Could not get book image from Google books"); }
           );
@@ -41,22 +41,22 @@ $(document).ready(function() {
     );
   });
 });
-// flesh out source list
+// flesh out resource list
 $(document).ready(function() {
-  if ($(".source-list").length > 0 || $(".source-citation").length > 0){
+  if ($(".resource-list").length > 0 || $(".resource-citation").length > 0){
     $.getJSON("https://api.zotero.org/groups/2178810/items?include=bib,citation", (data) => {
-        $(".source-citation").each(function(){
+        $(".resource-citation").each(function(){
           $( this ).html(() => {
             return data.filter((el) => {
               return el.key === $( this ).data("zoterokey");
             })[0].citation;
           });
         });
-        $(".source-list").each(function(){
+        $(".resource-list").each(function(){
           $( this ).html( (_, old) => {
               return data.filter((el) => {
               return el.key === $( this ).data("zoterokey");
-            })[0].bib.replace(/<\/div>\n<\/div>$/,  " (<a href='/sources/" + old + "'>our notes</a>)</div></div>");
+            })[0].bib.replace(/<\/div>\n<\/div>$/,  " (<a href='/resources/" + old + "'>our notes</a>)</div></div>");
           });
         });
         $(".csl-bib-body").each(function(){
@@ -110,8 +110,8 @@ $("article p").first().addClass("lead");
 $(document).ready(function(){
   $("#resetTags").click(() => {
     console.log("Reset clicked");
-    $(".source").each(function(){
-      $( this ).attr("style", "display: list-item;").addClass("legit-source");
+    $(".resource").each(function(){
+      $( this ).attr("style", "display: list-item;").addClass("legit-resource");
     });
     $("#tagPool > a > .badge-tag").each(function(){
       $( this ).removeClass("clicked-badge");
@@ -121,23 +121,23 @@ $(document).ready(function(){
 });
 
 function filterSources(){
-  $(".source").each(function(){
-    $( this ).removeClass("filtered-source").attr("style", "display: list-item");
+  $(".resource").each(function(){
+    $( this ).removeClass("filtered-resource").attr("style", "display: list-item");
   });
   $( this ).toggleClass("clicked-badge");
   // button.toggleClass("clicked-badge");
   const selectedTags = $("#tagPool > a > .clicked-badge").map(function(){
     return $( this ).data("tag");
   });
-  $(".source").filter(function(){
+  $(".resource").filter(function(){
     for(let i = 0 , len = selectedTags.length; i < len; i = i + 1){
       if($( this ).data("tags").split(" ").includes(selectedTags[i]) === false) return false;
     }
     return true;
-  }).addClass("filtered-source");
-  $(".source").each(function(){
-    if(!$( this ).hasClass("filtered-source")){
-      $( this ).removeClass("legit-source").attr("style", "display: none;");
+  }).addClass("filtered-resource");
+  $(".resource").each(function(){
+    if(!$( this ).hasClass("filtered-resource")){
+      $( this ).removeClass("legit-resource").attr("style", "display: none;");
     }
   });
 }

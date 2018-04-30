@@ -1,6 +1,6 @@
 {% assign rawtags = "" %}
-{% for source in site.sources %}
-  {% assign ttags = source.tags | join: "|" | append: "|" %}
+{% for resource in site.resources %}
+  {% assign ttags = resource.tags | join: "|" | append: "|" %}
   {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}

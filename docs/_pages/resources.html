@@ -1,0 +1,15 @@
+---
+permalink: /resources/
+tag-filter: true
+layout: page
+redirect_from: /sources/
+---
+
+
+<h1>Annotated Bibliography</h1>
+
+<ul id="resourceList">
+{% for resource in site.resources %}
+<li class="resource legit-resource" data-tags="{{ resource.tags | join: " " }}"><a class="resource-citation" href="{{ site.baseurl }}/resources/{{ resource.slug }}" data-zoterokey="{{ resource.zoterokey }}">{{ resource.slug }}</a></li>
+{% endfor %}
+</ul>

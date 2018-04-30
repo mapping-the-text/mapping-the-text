@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<article id="content" class="source-article col-md-8" data-zoterokey="{{ page.zoterokey }}">
-<h1 class="source-title">{{ page.slug }}</h1>
-<h2 class="source-authors"></h2>
-<h3 class="source-citation"></h3>
+<article id="content" class="resource-article col-md-8" data-zoterokey="{{ page.zoterokey }}">
+<h1 class="resource-title">{{ page.slug }}</h1>
+<h2 class="resource-authors"></h2>
+<h3 class="resource-citation"></h3>
 <hr class="mb-3" />
 {{ content }}
 </article>
 <aside class="col-md-4">
-{% include asides/source.html %}
+{% include asides/resource.html %}
 </aside>

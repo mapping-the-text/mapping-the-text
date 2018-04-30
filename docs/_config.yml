@@ -43,7 +43,7 @@ plugins:
 collections:
   members:
     output: true
-  sources:
+  resources:
     output: true
 defaults:
 - scope:
@@ -53,6 +53,6 @@ defaults:
     layout: member
 - scope:
     path: ""
-    type: sources
+    type: resources
   values:
-    layout: source
+    layout: resource

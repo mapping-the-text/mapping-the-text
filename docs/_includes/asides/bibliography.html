@@ -1,7 +1,8 @@
 {% if page.bibliography %}
 <h3>Bibliography:</h3>
 <div id="resourceList">
-{% for bibsource in page.bibliography %}
+{% assign bibliography = page.bibliography | split: " " %}
+{% for bibsource in bibliography %}
 {% assign resource = site.resources | where: "slug", bibsource | first %}
 <div class="resource-list" data-zoterokey="{{ resource.zoterokey }}">{{ resource.slug }}</div>
 {% endfor %}

@@ -1,0 +1,24 @@
+require "jekyll"
+
+task :poop do
+  puts "pooping"
+end
+
+task :build_tags do
+  puts "Building up the tag files…"
+  site = Jekyll::Site.new(Jekyll.configuration)
+  reader = Jekyll::CollectionReader.new(site)
+  tags = []
+  reader.read.keys.each do |collection|
+    reader.read[collection].docs.each do |doc|
+      doc.data["tags"].each{ |t| tags << t }
+    end
+  end
+  tags.uniq.each do |tag|
+    # unless File.exist?("./_pages/tags/#{tag}.md") 
+      File.open("./_pages/tags/#{tag}.md", "w") do |f|
+        f.puts "---\nlayout: tag\npermalink: \"/tags/#{tag}\"\ntag: #{tag}\n---\n"
+      end
+    # end
+  end
+end

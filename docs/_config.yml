@@ -36,6 +36,7 @@ include: ["_pages"]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Rakefile
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

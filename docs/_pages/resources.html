@@ -10,6 +10,6 @@ redirect_from: /sources/
 
 <ul id="resourceList">
 {% for resource in site.resources %}
-<li class="resource legit-resource" data-tags="{{ resource.tags | join: " " }}"><a class="resource-citation" href="{{ site.baseurl }}/resources/{{ resource.slug }}" data-zoterokey="{{ resource.zoterokey }}">{{ resource.slug }}</a></li>
+<li class="resource legit-resource" data-tags="{{ resource.tags | join: " " }}"><a class="resource-citation" href="{{ site.baseurl }}{{ resource.url }}" data-zoterokey="{{ resource.zoterokey }}">{{ resource.slug }}</a></li>
 {% endfor %}
 </ul>

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article id="content" class="col-md-8">
+<h1>Tag: {{ page.tag }}</h1>
+
+<h2>Associated Resources:</h2>
+<ul id="resourceList">
+  {% for resource in site.resources %}
+    {% assign tagsmash = resource.tags | join: "|" | append: "|" %}
+    {% assign slugpipe = page.tag | append: "|" %}
+    {% if tagsmash contains slugpipe %}
+    <li><a class="resource-citation" data-zoterokey="{{ resource.zoterokey }}" href="{{ site.baseurl }}{{ resource.url }}">{{ resource.slug }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Associated Members:</h2>
+<ul id="memberList">
+  {% for member in site.members %}
+    {% assign tagsmash = member.tags | join: "|" | append: "|" %}
+    {% assign slugpipe = page.tag | append: "|" %}
+    {% if tagsmash contains slugpipe %}
+    <li><a href="{{ site.baseurl }}{{ member.url }}">{{ member.name }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+</article>
+<aside class="col-md-4">
+{% include asides/last-modified.html %}
+</aside>

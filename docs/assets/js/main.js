@@ -75,16 +75,18 @@ $(document).ready(function() {
   $("a[href^='http']").attr("target", "_blank");
 
   // flesh out table of contents.
-  $("#tocList").append(function(){
-    let contents =  ""
-    $("article > h2").each(function(){
-      contents += "<div class='nav-item'><a class='nav-link' href='#" + $( this ).attr("id") + "'>" + $( this ).text() + "</a></div>\n";
+  if($( "h2" ).not(".resource-authors").length > 0 ){
+    $("#tocList").append(function(){
+      let contents =  ""
+      $("article > h2").not(".resource-authors").each(function(){
+        contents += "<div class='nav-item'><a class='nav-link' href='#" + $( this ).attr("id") + "'>" + $( this ).text() + "</a></div>\n";
+      });
+      if(contents.length > 0){
+        $("#tocDiv").attr("style", "display: block;");
+      }
+      return contents;
     });
-    if(contents.length > 0){
-      $("#tocDiv").attr("style", "display: block;");
-    }
-    return contents;
-  });
+  }
 }); 
 
 

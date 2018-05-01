@@ -1,24 +1,32 @@
 require "jekyll"
 
-task :poop do
-  puts "pooping"
-end
-
 task :build_tags do
   puts "Building up the tag files…"
+  tags_dir = "tags" # set the tags folder
+  if File.directory?(tags_dir) # create the tags folder if it doesn't exist
+    puts "Tags directory (./#{tags_dir}) exists."
+  else
+    puts "Tags directory (./#{tags_dir}) does not exist. Creating it…"
+    Dir.mkdir(tags_dir)
+  end
   site = Jekyll::Site.new(Jekyll.configuration)
   reader = Jekyll::CollectionReader.new(site)
-  tags = []
-  reader.read.keys.each do |collection|
-    reader.read[collection].docs.each do |doc|
-      doc.data["tags"].each{ |t| tags << t }
+  tags = reader.read.keys.map do |collection| # iterate over the collections
+    reader.read[collection].docs.map do |document| # and over every coll's docs
+      document.data["tags"] # add its tags to the array
     end
   end
-  tags.uniq.each do |tag|
-    # unless File.exist?("./_pages/tags/#{tag}.md") 
-      File.open("./_pages/tags/#{tag}.md", "w") do |f|
-        f.puts "---\nlayout: tag\npermalink: \"/tags/#{tag}\"\ntag: #{tag}\n---\n"
-      end
-    # end
+  tags.flatten!.uniq!.each do |tag| # use only unique values in the array and iterate
+    File.open("./#{tags_dir}/#{tag}.md", "w") do |f| # create a blank file for the tag
+      f.puts "---"
+      f.puts "title: \"Tag: #{tag}\""
+      f.puts "layout: tag"
+      f.puts "tag: #{tag}"
+      f.puts "robots: noindex"
+      # add any other metadata you want to include—permalink, etc.—here.
+      f.puts "---"
+    end
   end
+  puts "#{tags.count} tags generated!"
 end
+

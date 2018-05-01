@@ -1,5 +1,4 @@
-{% if page.bibliography %}
-<h3>Bibliography:</h3>
+<h3>Bibliography</h3>
 <div id="resourceList">
 {% assign bibliography = page.bibliography | split: " " %}
 {% for bibsource in bibliography %}
@@ -7,5 +6,4 @@
 <div class="resource-list" data-zoterokey="{{ resource.zoterokey }}">{{ resource.slug }}</div>
 {% endfor %}
 </div>
-{% endif %}
 

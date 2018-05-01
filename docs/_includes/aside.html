@@ -1,0 +1,25 @@
+{% if page.collection == "resources" %}
+  {% include widgets/book-image.html %}
+{% endif %}
+{% if page.collection == "members" %}
+  {% include widgets/github-avatar.html %}
+  {% include widgets/member.html %}
+{% endif %}
+{% if page.tag-filter %}
+  {% include widgets/tag-filter.html %}
+{% endif %}
+{% include widgets/contents.html %}
+{% if page.authors %}
+  {% include widgets/authors.html %}
+{% endif %}
+{% if page.tags %}
+  {% include widgets/tags.html %}
+{% endif %}
+{% if page.bibliography %}
+  {% include widgets/bibliography.html %}
+{% endif %}
+{% if page.download %}
+  {% include widgets/download.html %}
+{% endif %}
+{% include widgets/last-modified.html %}
+

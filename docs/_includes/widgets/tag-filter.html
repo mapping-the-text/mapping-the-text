@@ -1,6 +1,6 @@
 {% include tag_collector.html %}
 <h3>Filter by Tags</h3>
-<div class="mt-3 p-3 rounded" id="tagPool">
+<div class="dark-bg mt-3 p-3 rounded" id="tagPool">
 {% for tag in alltags %}
   {% capture tag_name %}{{ tag }}{% endcapture %}
   <a href="#"><span class="badge-tag badge badge-secondary" data-tag="{{tag_name}}">{{ tag_name }}</span></a>&nbsp;

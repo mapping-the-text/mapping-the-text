@@ -6,6 +6,13 @@ layout: default
 <h1 class="resource-title">{{ page.slug }}</h1>
 <h2 class="resource-authors"></h2>
 <h3 class="resource-citation"></h3>
+{% if page.collaborators %}
+{% assign collabarray = page.collaborators | split: " " %}
+<h4 class="resource-collaborators">
+  {% for collaborator in collabarray %}
+  {% assign member = site.members | where: "slug", collaborator | first %}
+  <a href="{{ site.baseurl }}{{ member.url }}" class="badge badge-secondary">{{ member.name }}</a>&nbsp;{% endfor %}</h4>
+{% endif %}
 <hr class="mb-3" />
 {{ content }}
 </article>

@@ -225,10 +225,12 @@ form {
   border: 1px solid $base1;
 }
 
-#tagPool {
+.dark-bg {
   background-color: $base3;
   background-image: url("https://i.imgur.com/elWuDjJ.png");
+}
 
+#tagPool {
   .clicked-badge, #resetTags {
     color: $base3;
     background-color: $violet;
@@ -237,11 +239,18 @@ form {
 }
 
 .badge-secondary {
+  font-family: $bodyfont;
   font-style: normal;
   font-size: 80%;
   color: $base01;
   background-color: $base2;
   border: 1px solid $violet ;
+}
+
+a.badge.badge-secondary:hover {
+  color: $base3;
+  background-color: $violet;
+  border: 1px solid $green;
 }
 
 @import "index";

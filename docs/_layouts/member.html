@@ -4,6 +4,20 @@ layout: default
 
 <article id="content" class="col-md-8">
   <h1>{{ page.name }}</h1>
+  <div class="w-100 card-deck mt-3 p-3 rounded dark-bg">
+    {% for resource in site.resources %}
+    {% if resource.collaborators contains page.slug %}
+    <div class="card" style="max-width: 18rem;">
+      {% if resource.icon %}
+      <img class="card-img-top" src="{{ resource.icon }}" alt="{{ resource.slug }} icon">
+      {% endif %}
+      <div class="card-header"><a class="resource-citation" data-zoterokey="{{ resource.zoterokey }}" href="{{ site.baseurl}}{{resource.url}}">{{ resource.slug }}</a></div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div>&nbsp;</div>
+          
 
 {{ content }}
 </article>

@@ -1,1 +1,1 @@
-<img src="" style="display: none;" class="w-50 rounded my-3 img-fluid" id="resource-img">
+<center><img {% if page.icon %}src="{{ page.icon }}" style="display: block;"{% else %}src="" style="display: none;"{% endif %} class="w-50 rounded my-3 img-fluid" id="resource-img" {% if page.homepage %}data-homepage="{{ page.homepage }}"{% endif %}></center>
